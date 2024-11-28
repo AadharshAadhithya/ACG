@@ -15,7 +15,6 @@ check_command() {
 check_command python
 check_command pip
 check_command dvc
-check_command aws
 
 # Load environment variables from .env file
 if [ -f .env ]; then

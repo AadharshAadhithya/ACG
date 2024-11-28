@@ -1,4 +1,3 @@
-awscli
 dvc[s3]
 decord
 einops>=0.4.1

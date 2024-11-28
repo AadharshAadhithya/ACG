@@ -48,6 +48,13 @@ def main_process(func):
 
     return wrapper
 
+def is_main_process():
+    return get_rank() == 0
+
+def get_rank():
+    if not is_dist_avail_and_initialized():
+        return 0
+    return dist.get_rank()
 
 def download_cached_file(url, check_hash=True, progress=False):
     """
