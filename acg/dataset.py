@@ -9,11 +9,13 @@ import copy
 import os
 from config import config
 
+IGNORE_INDEX=-100
+
 class ACGDataset(Dataset):
     
-    def __init__(self,max_token_length=128):
+    def __init__(self,root_dir, max_token_length=128):
         
-        self.root_path = config.data.train_path 
+        self.root_path = root_dir  
         
         self.tokenizer = AutoTokenizer.from_pretrained(config.model.language_model.tokenizer_name,use_auth_token=True)
         self.tokenizer.pad_token_id = 128001
@@ -94,44 +96,58 @@ class ACGDataset(Dataset):
     
     def collator(self,batch):
         
-     out_batch= {}
-     
-     labels = copy.deepcopy(input_ids)
-     
-     labels = torch.nn.utils.rnn.pad_sequence(
+        out_batch= {}
+
+        
+   
+
+
+
+        input_ids = [
+            torch.cat((torch.tensor([self.tokenizer.convert_tokens_to_ids("<|begin_of_text|>")]),
+                        instance["tokens"],
+                        torch.tensor([self.tokenizer.convert_tokens_to_ids("<|end_of_text|>")]))) for instance in batch] 
+
+        labels = copy.deepcopy(input_ids)
+        
+        labels = torch.nn.utils.rnn.pad_sequence(
             labels,
             batch_first=True,
             padding_value=IGNORE_INDEX)
-        
 
-    
-     input_ids = [
-            torch.cat((torch.tensor([self.tokenizer.convert_tokens_to_ids("<|begin_of_text|>")]),
-                       instance["tokens"],
-                       torch.tensor([self.tokenizer.convert_tokens_to_ids("<|end_of_text|>")]))) for instance in batch] 
-     
-     input_ids = torch.nn.utils.rnn.pad_sequence(
+        input_ids = torch.nn.utils.rnn.pad_sequence(
             input_ids,
             batch_first=True,
             padding_value=self.tokenizer.convert_tokens_to_ids("<|end_of_text|>"))
-     
-     attention_mask=input_ids.ne(self.tokenizer.convert_tokens_to_ids("<|end_of_text|>"))
-     
-     
-      if 'vid_features' in batch[0]:
-            features = [instance['vid_features'] for instance in instances]
-            if all(x is not None and x.shape == features[0].shape for x in features):
-                out_batch['vid_features'] = torch.stack(features)
-            else:
-                out_batch['vid_features'] = features
-                
-       out_batch['input_ids']=input_ids
-       out_batch['attention_mask'] =attention_mask
-       out_batch['labels']=labels
+
+        attention_mask=input_ids.ne(self.tokenizer.convert_tokens_to_ids("<|end_of_text|>"))
+
+
+        if 'vid_features' in batch[0]:
+            features = [torch.from_numpy(instance['vid_features']) for instance in batch]
+        if all(x is not None and x.shape == features[0].shape for x in features):
+            out_batch['vid_features'] = torch.stack(features)
+        else:
+            out_batch['vid_features'] = features
+            
+        out_batch['input_ids']=input_ids
+        out_batch['attention_mask'] =attention_mask
+        out_batch['labels']=labels
         return out_batch
      
    
 
 
+# ds = ACGDataset(config.data.train_path)
 
+# batch = [ds[0], ds[1], ds[3], ds[4]]
+
+# collated_batch = ds.collator(batch)
+
+# for k,v in collated_batch.items():
+#     print(k,v)
+#     try:
+#         print(v.shape)
+#     except:
+#         print(len(v))
     
