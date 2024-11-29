@@ -27,6 +27,8 @@ class MyModel(nn.Module):
                  num_video_query_token=32, num_features=512, 
                  device = "cuda", inference=False):
         
+        super().__init__()
+        
         self.device = device
         self.tokenizer = AutoTokenizer.from_pretrained(config.model.language_model.tokenizer_name)
         self.tokenizer.add_tokens(["[PLAYER]","[TEAM]","([TEAM])"], special_tokens=True)
@@ -89,8 +91,8 @@ class MyModel(nn.Module):
         query_tokens.data.normal_(mean=0.0, std=encoder_config.initializer_range)
         return Qformer, query_tokens
     
-    def forward(self):
-        pass
+    def forward(self, batch):
+        
     
     def maybe_autocast(self, dtype=torch.float16):
         enable_autocast = self.device != torch.device("cpu")
@@ -132,5 +134,5 @@ batch = [ds[0], ds[1], ds[3], ds[4]]
 collated_batch = ds.collator(batch)
 
 
-model  = MyModel(config.data.train_path)
+model  = MyModel()
         

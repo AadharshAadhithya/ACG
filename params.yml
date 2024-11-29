@@ -1,7 +1,7 @@
 model:
   language_model:
-    tokenizer_name: "meta-llama/Meta-Llama-3.1-8B"
-    llm_name: "meta-llama/Meta-Llama-3.1-8B"
+    tokenizer_name: "microsoft/Phi-3.5-mini-instruct"
+    llm_name: "microsoft/Phi-3.5-mini-instruct"
   type: "resnet50"
   learning_rate: 0.001
   batch_size: 32
