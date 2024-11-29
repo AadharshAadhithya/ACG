@@ -1,0 +1,14 @@
+model:
+  language_model:
+    tokenizer_name: "facebook/opt-2.7b"
+  type: "resnet50"
+  learning_rate: 0.001
+  batch_size: 32
+
+data:
+  train_path: "../data/pre_1"
+  val_path: "/data/val"
+
+experiment:
+  name: "baseline"
+  seed: 42
