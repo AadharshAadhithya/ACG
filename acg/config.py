@@ -1,5 +1,10 @@
 import yaml
 
+
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+
 class Config:
     def __init__(self, config_path="params.yml"):
         self._config = self._load_config(config_path)

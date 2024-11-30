@@ -35,6 +35,10 @@ class MyModel(nn.Module):
         self.llama_model = AutoModelForCausalLM.from_pretrained(config.model.language_model.llm_name, torch_dtype=torch.bfloat16)
         self.llama_model.resize_token_embeddings(len(self.tokenizer))
         
+        self.eos_token_id = self.tokenizer(
+            "\n", add_special_tokens=False
+        ).input_ids[0]
+        
         #self.llama_model.parallelize()
         
         self.ln_vision = LayerNorm(num_features)
@@ -97,9 +101,9 @@ class MyModel(nn.Module):
         
         video_features = batch['vid_features'] #B,T,P,D or [T,P,D]
             
-        input_ids= batch['input_ids'] #Bxmax(T)
-        atts_llama = batch['attention_mask']  #Bxmax(T)
-        targets= batch['labels'] #Bxmax(T)
+        input_ids= batch['input_ids'].to(self.device) #Bxmax(T)
+        atts_llama = batch['attention_mask'].to(self.device)  #Bxmax(T)
+        targets= batch['labels'].to(self.device) #Bxmax(T)
         
         print(input_ids.shape, atts_llama.shape, targets.shape)
         try:
@@ -146,36 +150,92 @@ class MyModel(nn.Module):
         
         inputs_llama = self.llama_proj(video_hidden)
         
+        atts_opt = torch.ones(inputs_llama.size()[:-1], dtype=torch.long).to(self.device)
         
-        if self.inference:
-            return self.generate_text(inputs_llama)
+        inputs_embeds = self.llama_model.model.decoder.embed_tokens(input_ids)
         
-        if validating:
-            pass
+        #atts_llama
         
-        visual_label = torch.full((batch_size, self.num_video_query_token), -100, dtype=targets.dtype)
-        concat_targets = torch.cat((visual_label, targets), dim=1).to(self.device)
-        temp_input_ids = input_ids.clone().to(self.device)
-        targets_embeds = self.llama_model.model.decoder.embed_tokens(temp_input_ids) #model.decoder.embed_tokens(opt_tokens.input_ids)
-        print(targets_embeds.shape, inputs_llama.shape)
-
-        embedding_cat = torch.cat((inputs_llama, targets_embeds), dim=1)
-        mask_prefix = torch.ones(batch_size, self.num_video_query_token, dtype=atts_llama.dtype)
-        mask = torch.concat((mask_prefix, atts_llama), dim=1).to(self.device)
-    
-        original_stdout = sys.stdout
-        sys.stdout = io.StringIO()
         with self.maybe_autocast():
             outputs = self.llama_model(
-                inputs_embeds=embedding_cat,
-                attention_mask=mask,
+                inputs_embeds=inputs_embeds,
+                attention_mask=atts_llama,
                 return_dict=True,
-                labels=concat_targets,
+                labels=targets,
             )
-        sys.stdout = original_stdout
         loss = outputs.loss
         
-        return self.generate_text(inputs_llama),loss
+        inputs_embeds = self.llama_model.get_input_embeddings()(input_ids)
+        
+        # use_nucleus_sampling=False
+        # num_beams=5
+        # max_length=30
+        # min_length=1
+        # top_p=0.9
+        # repetition_penalty=1.0
+        # length_penalty=1.0
+        # num_captions=1
+        # temperature=1
+        # outputs = self.llama_model.generate(
+        #         inputs_embeds=inputs_embeds, 
+        #         attention_mask=atts_llama,
+        #         do_sample=use_nucleus_sampling,
+        #         top_p=top_p,
+        #         temperature=temperature,
+        #         num_beams=num_beams,
+        #         max_length=max_length,
+        #         min_length=min_length,
+        #         eos_token_id=self.eos_token_id,
+        #         repetition_penalty=repetition_penalty,
+        #         length_penalty=length_penalty,
+        #         num_return_sequences=num_captions,
+        #     )
+        # output_text = self.tokenizer.batch_decode(
+        #         outputs, skip_special_tokens=True
+        #     )
+        
+        
+        
+
+        return {"loss": loss}
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        # if self.inference:
+        #     return self.generate_text(inputs_llama)
+        
+        # if validating:
+        #     pass
+        
+        # visual_label = torch.full((batch_size, self.num_video_query_token), -100, dtype=targets.dtype)
+        # concat_targets = torch.cat((visual_label, targets), dim=1).to(self.device)
+        # temp_input_ids = input_ids.clone().to(self.device)
+        # targets_embeds = self.llama_model.model.decoder.embed_tokens(temp_input_ids) #model.decoder.embed_tokens(opt_tokens.input_ids)
+        # print(targets_embeds.shape, inputs_llama.shape)
+
+        # embedding_cat = torch.cat((inputs_llama, targets_embeds), dim=1)
+        # mask_prefix = torch.ones(batch_size, self.num_video_query_token, dtype=atts_llama.dtype)
+        # mask = torch.concat((mask_prefix, atts_llama), dim=1).to(self.device)
+    
+        # original_stdout = sys.stdout
+        # sys.stdout = io.StringIO()
+        # with self.maybe_autocast():
+        #     outputs = self.llama_model(
+        #         inputs_embeds=embedding_cat,
+        #         attention_mask=mask,
+        #         return_dict=True,
+        #         labels=concat_targets,
+        #     )
+        # sys.stdout = original_stdout
+        # loss = outputs.loss
+        
+        # return self.generate_text(inputs_llama),loss
         #return loss
 
         
@@ -241,5 +301,7 @@ collated_batch = ds.collator(batch)
 
 model  = MyModel()
 
-model(collated_batch)
+out = model(collated_batch)
+
+print(out)
         

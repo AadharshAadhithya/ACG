@@ -15,3 +15,4 @@ moviepy
 nltk
 peft
 h5py
+pycocoevalcap
