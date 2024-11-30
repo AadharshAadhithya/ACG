@@ -91,7 +91,7 @@ class MyModel(nn.Module):
         query_tokens.data.normal_(mean=0.0, std=encoder_config.initializer_range)
         return Qformer, query_tokens
     
-    def forward(self, batch):
+    def forward(self, batch, validating=False):
         
         video_features = batch['vid_features'] #B,T,P,D or [T,P,D]
             
@@ -152,7 +152,7 @@ class MyModel(nn.Module):
         
         visual_label = torch.full((batch_size, self.num_video_query_token), -100, dtype=targets.dtype)
         concat_targets = torch.cat((visual_label, targets), dim=1).to(self.device)
-        temp_input_ids = inputs_ids.clone().to(self.device)
+        temp_input_ids = input_ids.clone().to(self.device)
         targets_embeds = self.llama_model.model.embed_tokens(temp_input_ids)
         embedding_cat = torch.cat((inputs_llama, targets_embeds), dim=1)
         mask_prefix = torch.ones(batch_size, self.num_video_query_token, dtype=atts_llama.dtype)
