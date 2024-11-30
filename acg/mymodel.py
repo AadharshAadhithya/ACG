@@ -35,6 +35,8 @@ class MyModel(nn.Module):
         self.llama_model = AutoModelForCausalLM.from_pretrained(config.model.language_model.llm_name, torch_dtype=torch.bfloat16)
         self.llama_model.resize_token_embeddings(len(self.tokenizer))
         
+        #self.llama_model.parallelize()
+        
         self.ln_vision = LayerNorm(num_features)
         self.num_query_tokens = num_query_tokens,
         self.num_video_query_token = num_video_query_token
@@ -54,7 +56,7 @@ class MyModel(nn.Module):
 
         # llama projection
         self.llama_proj = nn.Linear(
-            self.video_Qformer.config.hidden_size, self.llama_model.config.hidden_size
+            self.video_Qformer.config.hidden_size, 512
         )
         # video frame positional embedding
         self.video_frame_position_embedding = nn.Embedding(max_frame_pos, num_features)
@@ -144,6 +146,7 @@ class MyModel(nn.Module):
         
         inputs_llama = self.llama_proj(video_hidden)
         
+        
         if self.inference:
             return self.generate_text(inputs_llama)
         
@@ -153,7 +156,9 @@ class MyModel(nn.Module):
         visual_label = torch.full((batch_size, self.num_video_query_token), -100, dtype=targets.dtype)
         concat_targets = torch.cat((visual_label, targets), dim=1).to(self.device)
         temp_input_ids = input_ids.clone().to(self.device)
-        targets_embeds = self.llama_model.model.embed_tokens(temp_input_ids)
+        targets_embeds = self.llama_model.model.decoder.embed_tokens(temp_input_ids) #model.decoder.embed_tokens(opt_tokens.input_ids)
+        print(targets_embeds.shape, inputs_llama.shape)
+
         embedding_cat = torch.cat((inputs_llama, targets_embeds), dim=1)
         mask_prefix = torch.ones(batch_size, self.num_video_query_token, dtype=atts_llama.dtype)
         mask = torch.concat((mask_prefix, atts_llama), dim=1).to(self.device)
@@ -169,14 +174,15 @@ class MyModel(nn.Module):
             )
         sys.stdout = original_stdout
         loss = outputs.loss
-        return loss
+        
+        return self.generate_text(inputs_llama),loss
+        #return loss
 
         
     def generate_text(self, inputs_llama):
-        start_embeds = self.llama_model.model.embed_tokens(torch.tensor([128000]).to(self.device))
+        start_embeds = self.llama_model.model.decoder.embed_tokens(torch.tensor([128000]).to(self.device))
         inputs_llama_with_s = torch.cat([inputs_llama, start_embeds.expand(inputs_llama.size(0), -1, -1)], dim=1).to(dtype=torch.bfloat16)
         temp_res_tokens = self.llama_model.generate(
-            logits_processor=self.logits_prosessors,
             renormalize_logits=True,
             inputs_embeds=inputs_llama_with_s,
             max_new_tokens=128,
@@ -190,9 +196,6 @@ class MyModel(nn.Module):
         )
         res_text = process_output_tokens(self, temp_res_tokens)
         return res_text
-
-
-        
         
         
     
