@@ -24,7 +24,7 @@ class LayerNorm(nn.LayerNorm):
 class MyModel(nn.Module):
     def __init__(self, max_frame_pos=128, 
                  window=30, num_query_tokens=32, 
-                 num_video_query_token=32, num_features=512, 
+                 num_video_query_token=32, num_features=1024, 
                  device = "cuda", inference=False):
         
         super().__init__()
@@ -93,6 +93,108 @@ class MyModel(nn.Module):
     
     def forward(self, batch):
         
+        video_features = batch['vid_features'] #B,T,P,D or [T,P,D]
+            
+        input_ids= batch['input_ids'] #Bxmax(T)
+        atts_llama = batch['attention_mask']  #Bxmax(T)
+        targets= batch['labels'] #Bxmax(T)
+        
+        print(input_ids.shape, atts_llama.shape, targets.shape)
+        try:
+            print(video_features.shape)
+        except:
+            #temporary matching
+            print(len(video_features))
+            f = []
+            for i in video_features:
+                if i.size(0) >= 3:
+                     f.append(i[:3]) 
+            video_features = torch.stack(f).to(self.device)
+            
+            print(video_features.shape) #BxTxFxD
+            
+        batch_size, time_length, _, _ = video_features.size()
+        
+        video_features = self.ln_vision(video_features)
+        
+        video_features = einops.rearrange(video_features, 'b t n f -> (b t) n f', b=batch_size, t=time_length)
+        position_ids = torch.arange(time_length, dtype=torch.long, device=video_features.device)
+        position_ids = position_ids.unsqueeze(0).expand(batch_size, -1)
+        
+        frame_position_embeddings = self.video_frame_position_embedding(position_ids)
+        frame_position_embeddings = frame_position_embeddings.unsqueeze(-2)
+        
+        frame_hidden_state = einops.rearrange(video_features, '(b t) n f -> b t n f',b=batch_size,t=time_length)
+        frame_hidden_state = frame_position_embeddings + frame_hidden_state
+        
+        frame_hidden_state =  einops.rearrange(frame_hidden_state, 'b t q h -> b (t q) h',b=batch_size,t=time_length)
+        
+        frame_atts = torch.ones(frame_hidden_state.size()[:-1], dtype=torch.long).to(frame_hidden_state)
+        
+        video_query_tokens = self.video_query_tokens.expand(frame_hidden_state.shape[0], -1, -1).to(frame_hidden_state.device)
+        
+        video_query_output = self.video_Qformer.bert(
+            query_embeds=video_query_tokens,
+            encoder_hidden_states=frame_hidden_state,
+            encoder_attention_mask=frame_atts,
+            return_dict=True,
+        )
+        
+        video_hidden = video_query_output.last_hidden_state
+        
+        inputs_llama = self.llama_proj(video_hidden)
+        
+        if self.inference:
+            return self.generate_text(inputs_llama)
+        
+        if validating:
+            pass
+        
+        visual_label = torch.full((batch_size, self.num_video_query_token), -100, dtype=targets.dtype)
+        concat_targets = torch.cat((visual_label, targets), dim=1).to(self.device)
+        temp_input_ids = inputs_ids.clone().to(self.device)
+        targets_embeds = self.llama_model.model.embed_tokens(temp_input_ids)
+        embedding_cat = torch.cat((inputs_llama, targets_embeds), dim=1)
+        mask_prefix = torch.ones(batch_size, self.num_video_query_token, dtype=atts_llama.dtype)
+        mask = torch.concat((mask_prefix, atts_llama), dim=1).to(self.device)
+    
+        original_stdout = sys.stdout
+        sys.stdout = io.StringIO()
+        with self.maybe_autocast():
+            outputs = self.llama_model(
+                inputs_embeds=embedding_cat,
+                attention_mask=mask,
+                return_dict=True,
+                labels=concat_targets,
+            )
+        sys.stdout = original_stdout
+        loss = outputs.loss
+        return loss
+
+        
+    def generate_text(self, inputs_llama):
+        start_embeds = self.llama_model.model.embed_tokens(torch.tensor([128000]).to(self.device))
+        inputs_llama_with_s = torch.cat([inputs_llama, start_embeds.expand(inputs_llama.size(0), -1, -1)], dim=1).to(dtype=torch.bfloat16)
+        temp_res_tokens = self.llama_model.generate(
+            logits_processor=self.logits_prosessors,
+            renormalize_logits=True,
+            inputs_embeds=inputs_llama_with_s,
+            max_new_tokens=128,
+            num_beams=5,
+            do_sample=True,
+            min_length=5,
+            top_p=0.9,
+            repetition_penalty=1.0,
+            length_penalty=1,
+            temperature=1.0,
+        )
+        res_text = process_output_tokens(self, temp_res_tokens)
+        return res_text
+
+
+        
+        
+        
     
     def maybe_autocast(self, dtype=torch.float16):
         enable_autocast = self.device != torch.device("cpu")
@@ -135,4 +237,6 @@ collated_batch = ds.collator(batch)
 
 
 model  = MyModel()
+
+model(collated_batch)
         
