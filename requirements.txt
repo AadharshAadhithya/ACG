@@ -11,8 +11,12 @@ tqdm
 transformers==4.43.1
 torchaudio
 soundfile
+accelerate
 moviepy
 nltk
 peft
 h5py
 pycocoevalcap
+matplotlib
+flash_attn
+decord
