@@ -1,7 +1,7 @@
 import json
 from groq import Groq
 
-api_key = "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"
+api_key = "<APIKEY>"
 client = Groq(api_key=api_key)
 
 # Function to process the scoreboard data

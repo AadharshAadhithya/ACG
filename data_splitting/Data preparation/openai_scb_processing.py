@@ -1,7 +1,7 @@
 from openai import OpenAI
 import json
 # Define the OpenAI API key
-client = OpenAI(api_key = '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')
+client = OpenAI(api_key = '<API KEY>')
 def extract_cricket_info(scoreboard):
     prompt = f"""
     You will be given an improperly parsed cricket scoreboard. Your job is to extract the following information from it and return as JSON. 
