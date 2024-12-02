@@ -95,7 +95,7 @@ def load_all_transcriptions(output_dir):
 
 # Example usage
 if __name__ == "__main__":
-    input_directory = "/home/ACG/data/raw/audios"
+    input_directory = "/home/ACG/data/raw/short_audios"
     output_directory = "/home/ACG/data/raw/transcripts"
 
     # Transcribe audio files
