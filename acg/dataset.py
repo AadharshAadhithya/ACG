@@ -40,17 +40,18 @@ class ACGDataset(Dataset):
         
         #load npy file
         features_path = os.path.join(self.vid_embs_dir, vid_id+"_embeddings.npy")
-        try:
-            features = np.load(features_path) # Time, Patches(256+cls), Dimension
+        
+        features = np.load(features_path) # Time, Patches(256+cls), Dimension
        
-        except:
-            # Check if the shape is not (t, p, d)
-            while len(features.shape) != 3:
-                # If the shape is not as expected, randomly sample another video ID
-                idx = random.randint(0, len(self.vid_ids) - 1)
-                vid_id = self.vid_ids[idx]
-                features_path = os.path.join(self.vid_embs_dir, vid_id + "_embeddings.npy")
-                features = np.load(features_path)
+        # except:
+        #     # # Check if the shape is not (t, p, d)
+        #     # while len(features.shape) != 3:
+        #     #     # If the shape is not as expected, randomly sample another video ID
+        #     #     idx = random.randint(0, len(self.vid_ids) - 1)
+        #     #     vid_id = self.vid_ids[idx]
+        #     #     features_path = os.path.join(self.vid_embs_dir, vid_id + "_embeddings.npy")
+        #     #     features = np.load(features_path)
+            
             
             
         features = self._resample_features(features,self.fps)
