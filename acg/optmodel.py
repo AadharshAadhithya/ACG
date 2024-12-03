@@ -198,6 +198,7 @@ class OPTModel(nn.Module):
             outputs = self.opt_model(
                 inputs_embeds=embedding_cat,
                 attention_mask=mask,
+                max_new_tokens=256,
                 return_dict=True,
                 labels=concat_targets,
             )
@@ -231,7 +232,7 @@ class OPTModel(nn.Module):
                     top_p=top_p,
                     temperature=temperature,
                     num_beams=num_beams,
-                    max_length=max_length,
+                    max_new_tokens=256,
                     min_length=min_length,
                     eos_token_id=self.eos_token_id,
                     repetition_penalty=repetition_penalty,

@@ -27,10 +27,10 @@ def train(args):
     wandb.init(project="ACGModelTraining", config=args.__dict__)
     wandb.config.update(args)
     
-    train_dataset = ACGDataset(feature_root=args.train_feature_root, fps=args.fps, 
+    train_dataset = ACGDataset(root_dir=args.train_feature_root, fps=args.fps, 
                                tokenizer_name=args.tokenizer_name, 
                                max_token_length=args.max_token_length)
-    val_dataset = ACGDataset(feature_root=args.val_feature_root, fps=args.fps, 
+    val_dataset = ACGDataset(root_dir=args.val_feature_root, fps=args.fps, 
                              tokenizer_name=args.tokenizer_name,
                              max_token_length=args.max_token_length)
 
@@ -43,7 +43,7 @@ def train(args):
                                  shuffle=True, pin_memory=True, 
                                  collate_fn=val_dataset.collator)
 
-    model = OPTModel(args.model_id, args.tokenizer_id,
+    model = OPTModel(args.model_id, args.tokenizer_name,
                      num_query_tokens=args.num_query_tokens, 
                      num_video_query_token=args.num_video_query_token,
                      num_features=args.num_features, device=args.device).to(args.device)
@@ -80,6 +80,8 @@ def train(args):
                 cur_CIDEr_score = eval_cider(output_text, anonymized)
                 val_CIDEr += sum(cur_CIDEr_score) / len(cur_CIDEr_score)
                 val_pbar.set_postfix({"Scores": f"|C:{sum(cur_CIDEr_score)/len(cur_CIDEr_score):.4f}"})
+                print(output_text)
+                print(anonymized)
         
         avg_val_CIDEr = val_CIDEr / len(val_data_loader)
         print(f"Epoch {epoch+1} Summary: Average Training Loss: {avg_train_loss:.3f}, Average Validation CIDEr: {avg_val_CIDEr:.3f}")
@@ -117,26 +119,25 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(description="Train")
     parser.add_argument("--train_feature_root", type=str, default="../data/pre_3/train")
-     parser.add_argument("--val_feature_root", type=str, default="../data/pre_3/val")
+    parser.add_argument("--val_feature_root", type=str, default="../data/pre_3/val")
     parser.add_argument("--window", type=float, default=15)
     parser.add_argument("--tokenizer_name", type=str, default="facebook/opt-350m")
-     parser.add_argument("--model_id", type=str, default="facebook/opt-350m")
+    parser.add_argument("--model_id", type=str, default="facebook/opt-350m")
     parser.add_argument("--max_token_length", type=int, default=128)
     parser.add_argument("--train_ann_root", type=str, default="./dataset/MatchTime/train")
-    parser.add_argument("--train_batch_size", type=int, default=32)
-    parser.add_argument("--train_num_workers", type=int, default=32)
-    parser.add_argument("--train_timestamp_key", type=str, default="gameTime")
+    parser.add_argument("--train_batch_size", type=int, default=128)
+    parser.add_argument("--train_num_workers", type=int, default=4)
 
     
-    parser.add_argument("--val_batch_size", type=int, default=20)
-    parser.add_argument("--val_num_workers", type=int, default=32)
+    parser.add_argument("--val_batch_size", type=int, default=128)
+    parser.add_argument("--val_num_workers", type=int, default=4)
    
 
     parser.add_argument("--lr", type=float, default=1e-4)
     parser.add_argument("--num_epoch", type=int, default=80)
     parser.add_argument("--num_query_tokens", type=int, default=32)
     parser.add_argument("--num_video_query_token", type=int, default=32)
-    parser.add_argument("--num_features", type=int, default=512)
+    parser.add_argument("--num_features", type=int, default=1024)
     parser.add_argument("--fps", type=int, default=1)
     parser.add_argument("--model_output_dir", type=str, default="../ckpt")
     parser.add_argument("--device", type=str, default="cuda:0")

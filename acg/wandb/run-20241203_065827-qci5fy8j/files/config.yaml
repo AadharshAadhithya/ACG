@@ -1,0 +1,75 @@
+_wandb:
+    value:
+        cli_version: 0.18.7
+        m: []
+        python_version: 3.10.14
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 55
+                - 105
+            "2":
+                - 1
+                - 11
+                - 49
+                - 55
+                - 105
+            "3":
+                - 16
+                - 23
+                - 55
+            "4": 3.10.14
+            "5": 0.18.7
+            "6": 4.44.0
+            "8":
+                - 5
+            "12": 0.18.7
+            "13": linux-x86_64
+continue_train:
+    value: false
+device:
+    value: cuda:0
+fps:
+    value: 1
+load_ckpt:
+    value: ./ckpt/model_save_best_val_CIDEr.pth
+lr:
+    value: 0.0001
+max_token_length:
+    value: 128
+model_id:
+    value: facebook/opt-350m
+model_output_dir:
+    value: ../ckpt
+num_epoch:
+    value: 80
+num_features:
+    value: 1024
+num_query_tokens:
+    value: 32
+num_video_query_token:
+    value: 32
+pre_epoch:
+    value: 0
+pre_max_CIDEr:
+    value: 0
+tokenizer_name:
+    value: facebook/opt-350m
+train_ann_root:
+    value: ./dataset/MatchTime/train
+train_batch_size:
+    value: 32
+train_feature_root:
+    value: ../data/pre_3/train
+train_num_workers:
+    value: 7
+val_batch_size:
+    value: 32
+val_feature_root:
+    value: ../data/pre_3/val
+val_num_workers:
+    value: 7
+window:
+    value: 15
