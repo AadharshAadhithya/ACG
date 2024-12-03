@@ -906,7 +906,7 @@ class BertModel(BertPreTrainedModel):
                     0
                 ].size()
             else:
-                print(encoder_hidden_states.size())
+                # print(encoder_hidden_states.size())
                 (
                     encoder_batch_size,
                     encoder_sequence_length,

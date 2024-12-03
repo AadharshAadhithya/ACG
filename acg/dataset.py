@@ -41,7 +41,15 @@ class ACGDataset(Dataset):
         #load npy file
         features_path = os.path.join(self.vid_embs_dir, vid_id+"_embeddings.npy")
         
-        features = np.load(features_path) # Time, Patches(256+cls), Dimension
+        try:
+        
+            features = np.load(features_path) # Time, Patches(256+cls), Dimension
+        except:
+            print("-----------------")
+            print(vid_id)
+            print("-----------------")
+            
+            features= np.load(os.path.join(self.vid_embs_dir, self.vid_ids[0]+"_embeddings.npy") )
        
         # except:
         #     # # Check if the shape is not (t, p, d)
@@ -51,6 +59,18 @@ class ACGDataset(Dataset):
         #     #     vid_id = self.vid_ids[idx]
         #     #     features_path = os.path.join(self.vid_embs_dir, vid_id + "_embeddings.npy")
         #     #     features = np.load(features_path)
+        
+        try:
+            sh = features.shape
+            
+            if len(sh) != 3:
+                features= np.load(os.path.join(self.vid_embs_dir, self.vid_ids[0]+"_embeddings.npy") )
+        except Exception as e:
+            print("-----------------")
+            print(vid_id)
+            print("-----------------")
+            features= np.load(os.path.join(self.vid_embs_dir, self.vid_ids[0]+"_embeddings.npy") )
+                
             
             
             

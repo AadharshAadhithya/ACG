@@ -9,6 +9,7 @@ from typing import List
 import pickle as pkl
 import sys
 import io
+import numpy as np
 
 from config import config 
 from transformers import BertTokenizer
@@ -62,7 +63,7 @@ class OPTModel(nn.Module):
          # Initialize video Q-former
         self.video_Qformer,self.video_query_tokens = self.init_video_Qformer(num_query_token = num_video_query_token,
                                                                              vision_width=num_features,
-                                                                             num_hidden_layers =2)
+                                                                             num_hidden_layers =6)
         self.video_Qformer.cls = None
         self.video_Qformer.bert.embeddings.word_embeddings = None
         self.video_Qformer.bert.embeddings.position_embeddings = None
@@ -113,6 +114,9 @@ class OPTModel(nn.Module):
     
     def forward(self, batch, validating=False):
         
+    
+            
+        
         video_features = batch['vid_features'].to(self.device) #B,T,P,D or [T,P,D]
         input_ids= batch['input_ids']#Bxmax(T)
         atts_opt = batch['attention_mask']  #Bxmax(T)
@@ -120,10 +124,9 @@ class OPTModel(nn.Module):
         commentary = batch['commentary']
         
         self.generate_dtype = atts_opt.dtype
-
-            
+  
         batch_size, time_length, _, _ = video_features.size()
-        
+    
         video_features = self.ln_vision(video_features)
         
         video_features = einops.rearrange(video_features, 'b t n f -> (b t) n f', b=batch_size, t=time_length)
@@ -174,8 +177,8 @@ class OPTModel(nn.Module):
             return self.generate_text(inputs_opt)
         
         if validating:
-            output_text,loss = self.generate_text(inputs_opt,validation=True)
-            return output_text,loss, batch['commentary']
+            output_text = self.generate_text(inputs_opt,validation=True)
+            return output_text, batch['commentary']
         
         #atts_llama
         
@@ -189,10 +192,10 @@ class OPTModel(nn.Module):
         embedding_cat = torch.cat((inputs_opt, targets_embeds), dim=1)
         mask_prefix = torch.ones(batch_size, self.num_video_query_token, dtype=atts_opt.dtype)
         mask = torch.concat((mask_prefix, atts_opt), dim=1).to(self.device)
-       
+    
         
-        original_stdout = sys.stdout
-        sys.stdout = io.StringIO()
+        # original_stdout = sys.stdout
+        # sys.stdout = io.StringIO()
         
         with self.maybe_autocast():
             outputs = self.opt_model(
@@ -203,10 +206,11 @@ class OPTModel(nn.Module):
                 labels=concat_targets,
             )
             
-        sys.stdout = original_stdout
+        # sys.stdout = original_stdout
         loss = outputs.loss
+        print(loss)
         return loss
-    
+        
 
         
     def generate_text(self, inputs_opt,
@@ -222,8 +226,9 @@ class OPTModel(nn.Module):
         validation=False):
         
         batch_size = inputs_opt.shape[0]
-        print(inputs_opt.dtype)
+    
         mask_prefix = torch.ones(batch_size, self.num_video_query_token, dtype=torch.float32).to(self.device)
+        
         with self.maybe_autocast():
             outputs = self.opt_model.generate(
                     inputs_embeds=inputs_opt, 
@@ -246,8 +251,8 @@ class OPTModel(nn.Module):
         output_text = [text.strip() for text in output_text]
         
         if validation:
-            loss = outputs.loss
-            return output_text,loss
+
+            return output_text
             
         
         return output_text

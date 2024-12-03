@@ -11,6 +11,7 @@ import os
 from pycocoevalcap.cider.cider import Cider
 from config import config
 
+
 def eval_cider(predicted_captions, gt_captions):
     cider_evaluator = Cider()
     predicted_captions_dict = dict()
@@ -21,6 +22,9 @@ def eval_cider(predicted_captions, gt_captions):
         gt_captions_dict[i] = [caption]
     _, cider_scores = cider_evaluator.compute_score(predicted_captions_dict, gt_captions_dict)
     return cider_scores.tolist()
+
+
+
 
 def train(args):
     # Initialize wandb
@@ -36,12 +40,12 @@ def train(args):
 
     train_data_loader = DataLoader(train_dataset, batch_size=args.train_batch_size,
                                    num_workers=args.train_num_workers, 
-                                   drop_last=False, shuffle=True, pin_memory=True, 
+                                   drop_last=False, shuffle=True, pin_memory=False, 
                                    collate_fn=train_dataset.collator)
     val_data_loader = DataLoader(val_dataset, batch_size=args.val_batch_size, 
                                  num_workers=args.val_num_workers, drop_last=True,
-                                 shuffle=True, pin_memory=True, 
-                                 collate_fn=val_dataset.collator)
+                                 shuffle=True, pin_memory=False, 
+                                 collate_fn=train_dataset.collator)
 
     model = OPTModel(args.model_id, args.tokenizer_name,
                      num_query_tokens=args.num_query_tokens, 
@@ -52,6 +56,15 @@ def train(args):
     os.makedirs(args.model_output_dir, exist_ok=True)
 
     max_val_CIDEr = max(float(0), config.training.pre_max_CIDEr)
+    
+    
+    # val_pbar = tqdm(val_data_loader)
+    # with torch.no_grad():
+    #     for samples in val_pbar:
+            
+    #         output_text, anonymized = model(samples, True)
+    #         cur_CIDEr_score = eval_cider(output_text, anonymized)
+            
 
     for epoch in range(args.pre_epoch, args.num_epoch):
         model.train()
@@ -61,13 +74,16 @@ def train(args):
         for batch in train_pbar:
             optimizer.zero_grad()
             try:
-                loss = model(samples)
+                print("here")
+                loss = model(batch)
+                print("not here")
                 loss.backward()
                 optimizer.step()
                 train_loss_accum += loss.item()
                 train_pbar.set_postfix({"Loss": f"{loss.item():.4f}"})
-            except:
-                pass
+            except Exception as e:
+                print('some error')
+                print(e)
         
         avg_train_loss = train_loss_accum / len(train_data_loader)
         
@@ -76,7 +92,8 @@ def train(args):
         val_pbar = tqdm(val_data_loader, desc=f'Epoch {epoch+1}/{config.training.num_epochs} Validation')
         with torch.no_grad():
             for samples in val_pbar:
-                output_text, loss, anonymized = model(samples, True)
+                
+                output_text, anonymized = model(samples, True)
                 cur_CIDEr_score = eval_cider(output_text, anonymized)
                 val_CIDEr += sum(cur_CIDEr_score) / len(cur_CIDEr_score)
                 val_pbar.set_postfix({"Scores": f"|C:{sum(cur_CIDEr_score)/len(cur_CIDEr_score):.4f}"})
@@ -125,12 +142,12 @@ if __name__ == "__main__":
     parser.add_argument("--model_id", type=str, default="facebook/opt-350m")
     parser.add_argument("--max_token_length", type=int, default=128)
     parser.add_argument("--train_ann_root", type=str, default="./dataset/MatchTime/train")
-    parser.add_argument("--train_batch_size", type=int, default=128)
-    parser.add_argument("--train_num_workers", type=int, default=4)
+    parser.add_argument("--train_batch_size", type=int, default=4)
+    parser.add_argument("--train_num_workers", type=int, default=1)
 
     
-    parser.add_argument("--val_batch_size", type=int, default=128)
-    parser.add_argument("--val_num_workers", type=int, default=4)
+    parser.add_argument("--val_batch_size", type=int, default=4)
+    parser.add_argument("--val_num_workers", type=int, default=1)
    
 
     parser.add_argument("--lr", type=float, default=1e-4)
