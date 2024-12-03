@@ -201,14 +201,13 @@ class OPTModel(nn.Module):
             outputs = self.opt_model(
                 inputs_embeds=embedding_cat,
                 attention_mask=mask,
-                max_new_tokens=256,
                 return_dict=True,
                 labels=concat_targets,
             )
             
         # sys.stdout = original_stdout
         loss = outputs.loss
-        print(loss)
+    
         return loss
         
 

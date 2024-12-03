@@ -60,17 +60,12 @@ class ACGDataset(Dataset):
         #     #     features_path = os.path.join(self.vid_embs_dir, vid_id + "_embeddings.npy")
         #     #     features = np.load(features_path)
         
-        try:
-            sh = features.shape
-            
-            if len(sh) != 3:
-                features= np.load(os.path.join(self.vid_embs_dir, self.vid_ids[0]+"_embeddings.npy") )
-        except Exception as e:
-            print("-----------------")
-            print(vid_id)
-            print("-----------------")
-            features= np.load(os.path.join(self.vid_embs_dir, self.vid_ids[0]+"_embeddings.npy") )
-                
+    
+        sh = features.shape
+        
+        # if len(sh) != 3:
+        #     features= np.load(os.path.join(self.vid_embs_dir, self.vid_ids[0]+"_embeddings.npy") )
+        
             
             
             

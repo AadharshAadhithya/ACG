@@ -70,13 +70,13 @@ def train(args):
         model.train()
         train_loss_accum = 0.0
         train_pbar = tqdm(train_data_loader, desc=f'Epoch {epoch+1}/{config.training.num_epochs} Training')
-
+        train_limit = 0
         for batch in train_pbar:
             optimizer.zero_grad()
             try:
-                print("here")
+              
                 loss = model(batch)
-                print("not here")
+             
                 loss.backward()
                 optimizer.step()
                 train_loss_accum += loss.item()
@@ -84,6 +84,11 @@ def train(args):
             except Exception as e:
                 print('some error')
                 print(e)
+                
+            train_limit += 1 
+            
+            if train_limit ==4:
+                break
         
         avg_train_loss = train_loss_accum / len(train_data_loader)
         
