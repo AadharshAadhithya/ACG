@@ -14,15 +14,15 @@ from config import config
 
 
 def eval_cider(predicted_captions, gt_captions):
-    print(predicted_captions,gt_captions)
+    
     cider_evaluator = Cider()
     predicted_captions_dict = dict()
     gt_captions_dict = dict()
     for i, caption in enumerate(predicted_captions):
-        print(i,caption)
+       
         predicted_captions_dict[i] = [caption]
     for i, caption in enumerate(gt_captions):
-        print(i,caption)
+        
         gt_captions_dict[i] = [caption]
     _, cider_scores = cider_evaluator.compute_score(predicted_captions_dict, gt_captions_dict)
     return cider_scores.tolist()
@@ -123,38 +123,48 @@ def train(args):
         
         avg_train_loss = train_loss_accum / len(train_data_loader)
         
-        model.eval()
-        val_CIDEr = 0.0
-        val_pbar = tqdm(val_data_loader, desc=f'Epoch {epoch+1}/{config.training.num_epochs} Validation')
-        with torch.no_grad():
-            for samples in val_pbar:
-                
-                output_text, anonymized = model(samples, True)
-                print( output_text, anonymized )
-                cur_CIDEr_score = eval_cider(output_text, anonymized)
-                val_CIDEr += sum(cur_CIDEr_score) / len(cur_CIDEr_score)
-                val_pbar.set_postfix({"Scores": f"|C:{sum(cur_CIDEr_score)/len(cur_CIDEr_score):.4f}"})
-                print(output_text)
-                print(anonymized)
         
-        avg_val_CIDEr = val_CIDEr / len(val_data_loader)
-        print(f"Epoch {epoch+1} Summary: Average Training Loss: {avg_train_loss:.3f}, Average Validation CIDEr: {avg_val_CIDEr:.3f}")
 
         # Log metrics to wandb
         wandb.log({
             "epoch": epoch + 1,
             "train_loss": avg_train_loss,
-            "val_CIDEr": avg_val_CIDEr
         })
 
-        if epoch % 5 == 0:
-            file_path = f"{args.model_output_dir}/model_save_{epoch+1}.pth"
-            save_fn(model, file_path)
+        if (epoch+1) % 5 == 0:
+            model.eval()
+            val_CIDEr = 0.0
+            val_pbar = tqdm(val_data_loader, desc=f'Epoch {epoch+1}/{config.training.num_epochs} Validation')
+            with torch.no_grad():
+                for samples in val_pbar:
+                    
+                    output_text, anonymized = model(samples, True)
+                
+                    cur_CIDEr_score = eval_cider(output_text, anonymized)
+                    val_CIDEr += sum(cur_CIDEr_score) / len(cur_CIDEr_score)
+                    val_pbar.set_postfix({"Scores": f"|C:{sum(cur_CIDEr_score)/len(cur_CIDEr_score):.4f}"})
+                print('--------------')
+                print("EXAMPLE OUTPUT AND GT")
+                print(output_text)
+                print(anonymized)
+                print('--------------')
+                avg_val_CIDEr = val_CIDEr / len(val_data_loader)
+                print(f"Epoch {epoch+1} Summary: Average Training Loss: {avg_train_loss:.3f}, Average Validation CIDEr: {avg_val_CIDEr:.3f}")
+                wandb.log({
+                "epoch": epoch + 1,
+                "val_CIDEr": avg_val_CIDEr
+            })
 
-        if avg_val_CIDEr > max_val_CIDEr:
-            max_val_CIDEr = avg_val_CIDEr
-            file_path = f"{args.model_output_dir}/model_save_best_val_CIDEr.pth"
-            save_fn(model, file_path)
+            
+                
+                
+                file_path = f"{args.model_output_dir}/model_save_{epoch+1}.pth"
+                save_fn(model, file_path)
+
+            if avg_val_CIDEr > max_val_CIDEr:
+                max_val_CIDEr = avg_val_CIDEr
+                file_path = f"{args.model_output_dir}/model_save_best_val_CIDEr.pth"
+                save_fn(model, file_path)
 
 
 

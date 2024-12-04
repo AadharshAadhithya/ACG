@@ -51,7 +51,8 @@ class LLAMAModel(nn.Module):
         
         self.device = device
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_ckpt)
-        self.tokenizer.add_tokens(["[PLAYER]","[TEAM]","[COACH]","[REFEREE]","([TEAM])"], special_tokens=True)
+        self.tokenizer.add_tokens(["[BATSMAN]","[BOWLER]","[FIELDER]","[UMPIRE]","[TEAM]"], special_tokens=True)
+        self.tokenizer.pad_token = self.tokenizer.eos_token
         if qbit_4:
             self.llama_model = AutoModelForCausalLM.from_pretrained(llm_ckpt, torch_dtype=torch.bfloat16,quantization_config=nf4_config)
         else:    
@@ -131,7 +132,7 @@ class LLAMAModel(nn.Module):
     def forward(self, batch, validating=False):
         vid_ids = batch['vid_ids']
         
-        print(vid_ids)
+        # print(vid_ids)
         
         
         video_features = batch['vid_features'].to(self.device) #B,T,P,D or [T,P,D]
@@ -175,7 +176,7 @@ class LLAMAModel(nn.Module):
 
         if validating:
             temp_res_text = self.generate_text(inputs_llama)
-            anonymized = [sublist[3] for sublist in samples["caption_info"]]
+            anonymized = [c for c in commentary]
             return temp_res_text, anonymized
         
         visual_label = torch.full((batch_size, self.num_video_query_token), -100, dtype=targets.dtype)
