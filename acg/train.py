@@ -161,10 +161,10 @@ def train(args):
                 file_path = f"{args.model_output_dir}/model_save_{epoch+1}.pth"
                 save_fn(model, file_path)
 
-            if avg_val_CIDEr > max_val_CIDEr:
-                max_val_CIDEr = avg_val_CIDEr
-                file_path = f"{args.model_output_dir}/model_save_best_val_CIDEr.pth"
-                save_fn(model, file_path)
+                if avg_val_CIDEr > max_val_CIDEr:
+                    max_val_CIDEr = avg_val_CIDEr
+                    file_path = f"{args.model_output_dir}/model_save_best_val_CIDEr.pth"
+                    save_fn(model, file_path)
 
 
 

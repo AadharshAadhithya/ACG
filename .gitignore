@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 ckpt/ 
+!ckpt/*.dvc
 wandb/
 # C extensions
 *.so
