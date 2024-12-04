@@ -79,7 +79,8 @@ class ACGDataset(Dataset):
                                 max_length=self.max_token_length,truncation=True).input_ids[0]
         
     
-        return {'vid_features': features, "tokens": tokens, "commentary": commentary}
+        return {'vid_features': features, "tokens": tokens, 
+                "commentary": commentary, 'vid_id':vid_id }
   
         
     def __len__(self):
@@ -183,7 +184,7 @@ class ACGDataset(Dataset):
         
         commentaries = [instance['commentary'] for instance in batch]
         
-       
+        vid_ids  = [instance['vid_id'] for instance in batch]
 
 
         # if 'vid_features' in batch[0]:
@@ -200,5 +201,6 @@ class ACGDataset(Dataset):
         out_batch['attention_mask'] =attention_mask
         out_batch['labels']=labels
         out_batch['commentary'] = commentaries
+        out_batch['vid_ids'] = vid_ids
         return out_batch
      

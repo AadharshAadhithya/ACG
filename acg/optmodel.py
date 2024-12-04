@@ -43,7 +43,7 @@ class OPTModel(nn.Module):
         self.device = device
         self.opt_tokenizer = AutoTokenizer.from_pretrained(opt_tokenizer)
         #self.opt_tokenizer.add_tokens(["[PLAYER]","[TEAM]","([TEAM])"], special_tokens=True)
-        self.opt_model = AutoModelForCausalLM.from_pretrained(opt_model, torch_dtype=torch.bfloat16)
+        self.opt_model = AutoModelForCausalLM.from_pretrained(opt_model)
         #self.opt_model.resize_token_embeddings(len(self.tokenizer))
         # self.tokenizer = BertTokenizer.from_pretrained("bert-base-uncased", truncation_side=truncation_side)
         # tokenizer.add_special_tokens({"bos_token": "[DEC]"})
@@ -113,6 +113,9 @@ class OPTModel(nn.Module):
         return Qformer, query_tokens
     
     def forward(self, batch, validating=False):
+        
+        # print(batch['vid_ids'])
+        # print(batch['vid_features'])
         
     
             
@@ -224,19 +227,36 @@ class OPTModel(nn.Module):
         temperature=1,
         validation=False):
         
+        prompt ="<START COMMENT>"
+        
+        prompt = [prompt] * inputs_opt.size(0)
+        
+        opt_tokens = self.opt_tokenizer(
+                prompt,
+                return_tensors="pt",
+                padding="longest",
+                truncation=True,
+                max_length=32,
+            ).to(self.device)
+        
         batch_size = inputs_opt.shape[0]
     
         mask_prefix = torch.ones(batch_size, self.num_video_query_token, dtype=torch.float32).to(self.device)
+        attention_mask = torch.cat([mask_prefix, opt_tokens.attention_mask], dim=1)
+        
+        
+        inputs_embeds = self.opt_model.get_input_embeddings()(opt_tokens.input_ids)
+        inputs_embeds = torch.cat([inputs_opt,inputs_embeds],dim=1)
         
         with self.maybe_autocast():
             outputs = self.opt_model.generate(
-                    inputs_embeds=inputs_opt, 
-                    attention_mask=mask_prefix,
+                    inputs_embeds=inputs_embeds, 
+                    attention_mask=attention_mask,
                     do_sample=use_nucleus_sampling,
                     top_p=top_p,
                     temperature=temperature,
                     num_beams=num_beams,
-                    max_new_tokens=256,
+                    max_new_tokens=1024,
                     min_length=min_length,
                     eos_token_id=self.eos_token_id,
                     repetition_penalty=repetition_penalty,
@@ -247,6 +267,12 @@ class OPTModel(nn.Module):
         output_text = self.opt_tokenizer.batch_decode(
                 outputs, skip_special_tokens=True
             )
+        for text in output_text:
+            if text == '':
+                outs.append('NONE')
+            else:
+                outs.append(text)
+            
         output_text = [text.strip() for text in output_text]
         
         if validation:
