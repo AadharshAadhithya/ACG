@@ -1,0 +1,2147 @@
+[
+    {
+        "vid_id": "CricketVideo1_video_segment_104",
+        "prediction": "[BATSMAN] plays a shot carefully, guiding the ball down the ground to score a run. [BATSMAN] has scored 93 runs so far this season.",
+        "truth": "[BATSMAN] has chosen to hit the ball down the ground, playing a shot that is typical of this pitch, aiming for the square of the wicket or straight down the ground."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_108",
+        "prediction": "[BATSMAN] is dismissed, caught by [FIELDER] at square leg, [BOWLER] taking the second wicket of the day.",
+        "truth": "The ball was driven straight to the fielder, showcasing the bowler's effectiveness."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_61",
+        "prediction": "[BATSMAN] scores four runs with a good shot.",
+        "truth": "The ball is being hit down the slope, towards the leg side."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_6",
+        "prediction": "[BATSMAN] plays a shot down the leg side, a defensive shot to fine leg, similar to the one he played in the first over.",
+        "truth": "[BATSMAN] drives the delivery, but the shot is slightly loose, with the ball moving along the ground between third slip and gully. It is eventually collected by third man."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_38",
+        "prediction": "[BATSMAN] plays a shot well, hitting the ball nicely. The maximum height allows it to travel far, resulting in four runs.",
+        "truth": "[BATSMAN] plays a lovely shot, finding the boundary with a bit of extra width."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_26",
+        "prediction": "[BATSMAN] plays a beautiful shot, hitting [BOWLER]'s delivery through the mid-wicket region for four runs.",
+        "truth": "[BATSMAN] hits the ball too far from his body, it should be a boundary. The [BOWLER] has overpitched it and [BATSMAN] takes advantage, crushing the ball through the leg side."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_116",
+        "prediction": "[BATSMAN] has scored a single, but it was a tight call, and the umpires have reviewed the decision. However, the original decision has been upheld, and [BATSMAN] has been awarded one run.",
+        "truth": "[BATSMAN] attempts a pull shot but mis-executes it, resulting in a top edge."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_60",
+        "prediction": "[BATSMAN] plays a beautiful shot, hitting the ball to the off side.",
+        "truth": "[BATSMAN] plays a beautiful shot, but [BATSMAN] falls short of the target."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_145",
+        "prediction": "[BATSMAN] plays a big shot, hitting the ball through the off side for four runs.",
+        "truth": "[BATSMAN] drives the delivery straight back past [BOWLER]. The ball is going to reach the boundary in front of the [VENUE] for four runs."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_125",
+        "prediction": "[BOWLER] delivers a loose delivery, which [BATSMAN] fails to cut properly. The ball bounces once and hits [BATSMAN]'s stumps, dislodging the bails.",
+        "truth": "[BATSMAN] makes room to [BOWLER], and plays a straight half-volley."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_32",
+        "prediction": "The [BATSMAN] hits the ball straight down the ground.",
+        "truth": "[BATSMAN] has hit a boundary, a four is scored."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_130",
+        "prediction": "[BATSMAN] plays a shot off the front foot, pushing the ball through the off side.",
+        "truth": "[BATSMAN] has scored a couple of runs through mid-on."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_82",
+        "prediction": "[BOWLER] delivers the ball, which [BATSMAN] plays a drive, and the shot is well-executed.",
+        "truth": "[BATSMAN] drives the next ball through the offside, scoring four runs. He appears to be settling in well on his debut."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_111",
+        "prediction": "[BATSMAN] plays a shot just over the boundary, it's a six. The ball was full and straight, but [BATSMAN] managed to get it away with a well-timed shot.",
+        "truth": "[BATSMAN] moves to fourth slip after a successful edge from [BOWLER]'s delivery, scoring runs and reaching 4."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_3",
+        "prediction": "[BATSMAN] plays a defensive shot, and the ball is driven down the ground.",
+        "truth": "[FIELDER] misfields, allowing the ball to sail over the boundary for four. [BATSMAN] attempts a run, but the shot is well out of reach."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_37",
+        "prediction": "[BATSMAN] plays a shot down the leg side, scoring four runs.",
+        "truth": "[BATSMAN] gets out on the very first ball, a wicket down for the team. The score is currently 185 for 2."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_110",
+        "prediction": "[BATSMAN] drives the ball through the covers, with a good connection, in the process.",
+        "truth": "[BATSMAN] scores a boundary, hitting the ball through the off side. [BATSMAN] has taken advantage of the opportunity and has run quickly to reach the opposite end."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_2",
+        "prediction": "[BOWLER] concedes four runs as [BATSMAN] hits the ball through the offside, with the ball's extra bounce assisting the shot.",
+        "truth": "[BATSMAN] plays a shot and gets a boundary on the leg side, scoring 4 runs. The [BOWLER] delivers a short ball that is easily dispatched."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_92",
+        "prediction": "[BATSMAN] edges the ball but it falls short of the boundary. The umpire has given [BATSMAN] leg before wicket, and he departs. [BATSMAN] trudges off, replaced by [BATSMAN].",
+        "truth": "[BATSMAN] steps away to leg and hits the ball through the covers for four."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_158",
+        "prediction": "[BATSMAN] has timed the ball well, hitting it through the off side for a boundary.",
+        "truth": "[BATSMAN] plays a defensive stroke, pushing the ball with a full face of the bat."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_140",
+        "prediction": "[BATSMAN] has played a nice shot through the leg side, beating the fielder at mid-wicket. The ball is moving away from [BOWLER], who has been hit for six runs.",
+        "truth": "[BATSMAN]'s sweep shot results in a six, removing [BOWLER] and potentially influencing [TEAM]'s strategy."
+    },
+    {
+        "vid_id": "CricketVideo2_part2_scene_18",
+        "prediction": "[BATSMAN] plays a beautiful shot, but it's not quite powerful enough to clear the boundary.",
+        "truth": "[BATSMAN] has scored a single. The score is now 52."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_12",
+        "prediction": "[BOWLER] delivers the ball, which [BATSMAN] punches it away, and the umpire signals a four.",
+        "truth": "[BATSMAN] departs after a nicely played shot. He has been showing signs of anxiety and has had some fortunate breaks on [VENUE]."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_178",
+        "prediction": "[BATSMAN] scores four runs.",
+        "truth": "[BATSMAN] hits it over the top, with the ball going wide of mid-off. [BOWLER] concedes a few runs as [BATSMAN] takes a few strides."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_86",
+        "prediction": "The [BATSMAN] plays a shot on the off side, hitting the ball with a lot of timing. It's a well-executed stroke, and the [FIELDER] runs in from the boundary to collect the ball.",
+        "truth": "A well-played shot. The [BATSMAN] has driven the ball crisply through the offside. The fielder, Wilder, is unable to cover the distance."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_165",
+        "prediction": "[BATSMAN] has hit the ball in the air, but it's too good for the fielders to chase it down.",
+        "truth": "[BATSMAN] gets off the mark with a boundary, scoring runs in a stylish manner."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_130",
+        "prediction": "[BATSMAN] has played a beautiful drive, scoring a well-timed shot between mid-off and mid-on. The ball has carried well, reaching the fence.",
+        "truth": "[BATSMAN] cuts [BOWLER]'s delivery powerfully through extra cover and away to the long boundary for four runs."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_144",
+        "prediction": "[BATSMAN] plays a good shot, cutting the ball to the off side, resulting in four runs.",
+        "truth": "[BATSMAN] is dismissed, caught by [FIELDER] off [BOWLER]. This is [BOWLER]'s second wicket."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_164",
+        "prediction": "[BATSMAN] plays a beautiful shot, cutting the ball through the gap between the [FIELDER] and the covers, and it runs to the boundary for four runs.",
+        "truth": "[BATSMAN] reverse sweeps [BOWLER], beating [FIELDER] at point and taking two runs down to the boundary."
+    },
+    {
+        "vid_id": "CricketVideo2_part1_scene_26",
+        "prediction": "[BATSMAN] has played a lovely shot. However, there was no run scored. He will have to settle for a boundary.",
+        "truth": "[BATSMAN] has hit a beautiful shot, with the ball sailing over the extra cover region."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_140",
+        "prediction": "[BATSMAN] plays a shot through the space between the slips and the [FIELDER] on the boundary, which results in four runs.",
+        "truth": "[BATSMAN] edges it, a fine shot, and they're off to a great start, with four runs added to their score."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_120",
+        "prediction": "[BATSMAN] has scored 50 runs, and he's playing a shot to [BATSMAN].",
+        "truth": "[BATSMAN] plays a powerful pull shot, the ball soaring towards the onside."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_72",
+        "prediction": "[BATSMAN] drives through the covers, and the ball races away to the boundary. This is a well-executed shot by [BATSMAN], who has shown his ability to play shots square of the wicket.",
+        "truth": "[BATSMAN] drives the delivery towards the leg side, aiming for a boundary. [FIELDER] chases the ball. [BATSMAN] and [BOWLER] have formed a 50-run partnership."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_41",
+        "prediction": "[BATSMAN] is bowled by [BOWLER]. The ball clips off the pad and goes through to the wicket-keeper.",
+        "truth": "[BATSMAN] has been dismissed leg before wicket for 48 runs."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_170",
+        "prediction": "[BATSMAN] plays a clever shot, hitting the ball through the off side for four runs. The [BATSMAN] has scored his first boundary.",
+        "truth": "[BATSMAN] hits a lofted shot over mid-wicket, resulting in a four."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_87",
+        "prediction": "[BATSMAN] has reached the 50 mark, scoring a total of 50 runs off 81 deliveries.",
+        "truth": "There is no commentary to rephrase."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_57",
+        "prediction": "[BATSMAN] plays a defensive shot, pushing the ball wide of [FIELDER] for a single.",
+        "truth": "The umpire has given the decision of LBW, resulting in the dismissal of the batsman."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_156",
+        "prediction": "[BATSMAN] notches up his 10th century.",
+        "truth": "The ball sailed over the boundary rope, traveling over [BATSMAN]'s legs."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_53",
+        "prediction": "[BATSMAN] falls short of a century, dismissed for 97. [BOWLER] claims the wicket.",
+        "truth": "[BATSMAN] drives the ball straight to extra cover. [FIELDER] takes the catch. [BOWLER] claims his second wicket. This is [BOWLER]'s third wicket of the match. One of the key challenges for the [BATSMAN] was timing their shot perfectly throughout the day."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_173",
+        "prediction": "[BATSMAN] plays a shot on the leg side, hitting [BOWLER]'s delivery with the turn, and it goes to the boundary for four runs.",
+        "truth": "[BATSMAN] hits a six over the [FIELDER] at the Felsed stand. The ball has sailed over the boundary."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_160",
+        "prediction": "[BATSMAN] plays a good shot, reaching well in time to connect with the ball.",
+        "truth": "\"Four runs scored off the over, with a shot hitting the boundary in the direction of the [VENUE]'s Galidari stand.\""
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_100",
+        "prediction": "[BATSMAN] plays a defensive shot, hitting the ball to the mid-on fielder.",
+        "truth": "[BATSMAN] smashes the ball over mid-on, reaching the boundary."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_97",
+        "prediction": "[BATSMAN] plays a beautiful shot, hitting the ball through the off side for a single.",
+        "truth": "[BATSMAN] prepares to face [BOWLER]'s delivery, looking to score runs aggressively."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_43",
+        "prediction": "[BATSMAN] edges it away, a shot that appears to have the potential to clear the boundary. The ball is hit firmly, with [BATSMAN] scoring four runs.",
+        "truth": "[BATSMAN] plays a beautiful shot off the back foot, with the ball going through the gap at backwards point for a boundary."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_8",
+        "prediction": "[BATSMAN] plays a shot on the leg side, cutting [BOWLER]'s delivery. The ball travels towards the fine leg region, resulting in four runs.",
+        "truth": "[BATSMAN] was dismissed without further contribution. [BOWLER] Stewart, however, bowled a well-timed delivery, which [BATSMAN] could not negotiate, and the ball ran towards the third man."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_153",
+        "prediction": "[BATSMAN] plays a shot down the ground, and it's a boundary. [BATSMAN] has scored his first run of the innings.",
+        "truth": "[BATSMAN] edges it to [FIELDER] at deep square leg, who takes a straightforward catch. [BATSMAN] departs for a short stay at the crease."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_12",
+        "prediction": "[BATSMAN] is dismissed, caught at mid wicket off [BOWLER]'s delivery. It's the second wicket of the day for [BOWLER], who has taken two wickets.",
+        "truth": "[BATSMAN] plays a defensive shot, and [FIELDER] at short leg is unsure whether it was a glance or not. The umpire signals a boundary, and the ball has traveled four runs."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_91",
+        "prediction": "[BATSMAN] drives the ball through the covers, and it runs to the boundary for four runs.",
+        "truth": "[BATSMAN] scores four runs, but it appears the shot was not intended for that boundary."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_41",
+        "prediction": "[BATSMAN] struggles to clear the hurdles, and it appears that he will not be able to score.",
+        "truth": "The [BATSMAN] is running hard for two. A boundary is hit after the interval. The over ends with 2.41 runs conceded."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_130",
+        "prediction": "[BATSMAN] dismissed, his third wicket of the day.",
+        "truth": "[BATSMAN] is dismissed. He was given LBW."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_19",
+        "prediction": "[BATSMAN] scores a boundary, hitting the ball between mid-off and extra cover.",
+        "truth": "The [BATSMAN] glanced the delivery from [BOWLER] off the pads through mid wicket to score four runs."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_179",
+        "prediction": "[BATSMAN] is through with a drive, and the ball travels to the boundary for four runs. He has scored his first runs of the innings.",
+        "truth": "[BATSMAN] drives through the onside, a rare aggressive shot, and he middles that one nicely, the ball going past mid-wicket. [BOWLER] is back in action, joining [BATSMAN]."
+    },
+    {
+        "vid_id": "CricketVideo2_part1_scene_31",
+        "prediction": "The [BATSMAN] plays a beautiful shot, driving it through the off side for four.",
+        "truth": "[BATSMAN] is being rested due to a long season ahead, which includes the second half of the [COMPETITION] and the [COMPETITION] in [MONTH]."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_3",
+        "prediction": "[BATSMAN] hits a big shot through the off side for four runs, bringing up his 50.",
+        "truth": "[BATSMAN] plays a well-placed shot, scoring four runs. The ball reaches the shorter side of the ground, located in the Gallidari stand."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_131",
+        "prediction": "[BATSMAN] has been in for a while, and he continues to score heavily. He plays a shot through the off side, and the ball travels to the boundary for four runs.",
+        "truth": "[BATSMAN] plays a defensive shot towards the leg side. The [FIELDER] fails to take the catch, and [BATSMAN] has been successful in this attempt."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_177",
+        "prediction": "[BATSMAN] has been dismissed, bowled by [BOWLER].",
+        "truth": "[BATSMAN] has been given out leg before."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_168",
+        "prediction": "[BATSMAN] pulls out a shot to the boundary. The ball travels the width of the ground, with [BOWLER] following it all the way.",
+        "truth": "[BATSMAN] scores a boundary by cutting the ball behind square for four runs. [BATSMAN] then takes two runs. [BATSMAN] continues to score by hitting the next delivery into the leg side for four runs. The fielder at square leg makes a diving attempt but fails to hold onto the ball."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_48",
+        "prediction": "[BATSMAN] extends his lead to 10 runs with a drive down the ground. [BATSMAN] then attempts to score another run through the covers, but [BATSMAN] is unable to make it, resulting in a miss. However, [BATSMAN] manages to survive, and [BATSMAN] eventually departs, hitting the ball high up in the air towards cover. [BATSMAN] then attempts to score a run, but [BATSMAN] is unable to make it, resulting in a run out.",
+        "truth": "[BATSMAN] reaches his century with a single off a simple push. [BATSMAN] then cuts [BOWLER]'s delivery with ease. However, the shot lacks the power to reach the boundary. The [BATSMAN] initially misjudged the distance to the boundary due to the reflections from the nearby glass, making it appear further away than it actually was."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_93",
+        "prediction": "[BATSMAN] plays a beautiful drive, a beautiful shot to be remembered.",
+        "truth": "[BATSMAN] cuts the ball towards the vacant region between long off and deep point, as [BOWLER] runs in to deliver the next ball."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_182",
+        "prediction": "[BATSMAN] punches the ball through the covers, and it's gone for four runs.",
+        "truth": "[BATSMAN] plays a leg side shot, scoring three runs. However, he decides against playing a sweep shot around mid wicket. The [BOWLER], Moriarty, concedes a wide delivery outside the [BATSMAN]'s reach."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_136",
+        "prediction": "[BATSMAN] plays a solid shot, beating the fielders at mid-wicket and backward point.",
+        "truth": "[BATSMAN] hits a boundary off [BOWLER]'s delivery, scoring a four."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_96",
+        "prediction": "[BATSMAN] is dismissed, caught [FIELDER] off a poor shot. [BOWLER] has taken the wicket, which is the fifth for [BOWLER].",
+        "truth": "[BATSMAN] was finding it challenging to play that particular delivery, a trend we're witnessing throughout the match. [BATSMAN] was dismissed, with [FIELDER] taking a sharp catch at third slip. This is the first wicket for [BOWLER] and the second [BATSMAN] has departed, with [BATSMAN] being the left-hander to fall."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_69",
+        "prediction": "[BATSMAN] struggles to reach the other end, but it's a boundary.",
+        "truth": "[BATSMAN] plays a shot through the cover region but finds the boundary through cover point for four."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_120",
+        "prediction": "[BATSMAN] plays a defensive shot, pushing the ball to the mid-off region.",
+        "truth": "[BOWLER] delivers the ball, which is hit through the mid-wicket region."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_33",
+        "prediction": "The [BATSMAN] has played a beautiful shot, hitting the ball through the covers for four runs. The [BOWLER] has not been able to contain the [BATSMAN], who is looking dangerous.",
+        "truth": "[BATSMAN] takes a bit of time to get set, eventually, [BATSMAN] plays a shot, which is well-run, resulting in four runs."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_73",
+        "prediction": "A boundary has been hit.",
+        "truth": "The batsman."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_36",
+        "prediction": "[BATSMAN] plays a defensive shot, pushing the delivery through the off side regions. The ball travels towards the boundary, and [FIELDER] collects it.",
+        "truth": "[BATSMAN] plays a powerful stroke, driving the delivery from [BOWLER] straight past the slips to the boundary for four."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_102",
+        "prediction": "[BATSMAN] has played a shot through the line, hitting the ball with power. The [BOWLER] in the field has failed to stop it, and it will go to the boundary for four runs.",
+        "truth": "[BATSMAN] has scored a boundary, executing a well-timed shot. He opened up the face of the bat and utilized the available space within the crease to hit the ball towards the ropes, achieving a double-digit score."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_104",
+        "prediction": "[BATSMAN] has played a shot off [BOWLER]'s delivery, and the ball has been hit to the deep mid-wicket region.",
+        "truth": "[BATSMAN] hits a massive six over square leg."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_105",
+        "prediction": "[BATSMAN] has played a fine shot. The ball has been driven through the offside, and [BOWLER]Monaghan has been given the credit for the wicket.",
+        "truth": "[TENNIS BALL] is bowled. [BATSMAN] attempts a full drive but finds [FIELDER] at extra cover. No run scored. [BOWLER] has a tidy first over, conceding just one run."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_6",
+        "prediction": "[BATSMAN] has been dismissed, caught by [BOWLER] following a misjudged shot. He attempts to run a boundary but the fielder's throw hits the stumps, resulting in a run out.",
+        "truth": "[BATSMAN] plays a beautiful shot, scoring a boundary off [BOWLER]'s delivery, with [FIELDER] unable to reach it."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_92",
+        "prediction": "The ball is heading for the boundary.",
+        "truth": "[BATSMAN] is batting well with this delivery."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_100",
+        "prediction": "The [BATSMAN] scores a four with a well-timed shot.",
+        "truth": "[BATSMAN] attempts a shot, and the ball is fielded at mid-wicket. [FIELDER] takes a close look at the ball."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_49",
+        "prediction": "[BATSMAN] reaches a century with a maximum score of 425. [BATSMAN] scores a century with a maximum score of 425 while batting for [BATSMAN]'s team in a match at [BATSMAN]'s home ground.",
+        "truth": "[BATSMAN] scores a half-century to reach 150. He has faced 195 deliveries."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_123",
+        "prediction": "[BATSMAN] plays a drive to the on side, scoring four runs for his team.",
+        "truth": "[BATSMAN] plays a shot through the offside with a drive."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_154",
+        "prediction": "The [BATSMAN] has timed it beautifully, and the ball has been driven straight down the ground.",
+        "truth": "[NODETAILS] uses their feet well, [BATSMAN] moves forward, [FIELDER] in position to field."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_150",
+        "prediction": "The [BATSMAN] has played a shot through the off side, and the ball has been down the ground.",
+        "truth": "Four runs scored. A well-played shot by [BATSMAN]."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_107",
+        "prediction": "[BATSMAN] scores a boundary with a square cut, bringing up a well-deserved century. [BATSMAN] has batted very well, showing good footwork and timing.",
+        "truth": "[BATSMAN] drives the delivery through the offside for four runs, a well-executed shot that got the better of the [BOWLER]."
+    },
+    {
+        "vid_id": "CricketVideo_part1_scene_57",
+        "prediction": "[BATSMAN] drives the ball through the off side, scoring four runs.",
+        "truth": "A well-played stroke, potentially resulting in a boundary."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_19",
+        "prediction": "[BATSMAN] plays a defensive shot and gets a slight inside edge, the ball going through to the fine leg region for four runs.",
+        "truth": "[BATSMAN] judged the delivery time better this time, as he had in his previous innings at [VENUE]. The [BOWLER] opted for a short delivery, which was pulled through the gap between midwicket and square leg for four runs."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_71",
+        "prediction": "The [BATSMAN] plays a lovely drive, hitting the ball straight down the ground.",
+        "truth": "[BATSMAN] has pulled the delivery for four."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_30",
+        "prediction": "[BATSMAN] survives a close call at the [FIELDER]'s end.",
+        "truth": "Middlesex have a crucial breakthrough at the start of the afternoon session."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_107",
+        "prediction": "A boundary edged through the slips, the shot has been played with a horizontal bat swing.",
+        "truth": "A beautiful stroke. [BATSMAN] executes a textbook shot, playing it on one knee."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_118",
+        "prediction": "[BATSMAN] scores through the leg side, beating [BOWLER], who fails to cut the line and length delivered by [BOWLER].",
+        "truth": "The [BATSMAN] attempts a defensive shot but fails to connect with a short-pitched delivery from [BOWLER]. The ball goes down the leg side."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_30",
+        "prediction": "[BATSMAN] plays a shot to the on side, edging the ball to the square leg region.",
+        "truth": "[BATSMAN] gets off the mark with a stylish shot as [BOWLER] Roach comes into the attack. The ball is driven through the covers for four runs, with the batsman regaining his composure."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_25",
+        "prediction": "[BATSMAN] drives a shot through the mid-off region, scoring a boundary.",
+        "truth": "[BOWLER] delivers a full-length delivery angled towards the deep third boundary, resulting in four runs scored."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_1",
+        "prediction": "[BATSMAN] scores a boundary off [BOWLER]'s delivery. The ball was played between the covers, reaching the boundary with ease.",
+        "truth": "[BATSMAN] edges the delivery down towards third man for a four, and the ball races towards the electronic scoreboard, with Kent reaching six."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_117",
+        "prediction": "[FIELDER] attempts to run for three runs, but the [BARNSTAPLE] groundsman signals for the [Umpire] to review the play.",
+        "truth": "[BATSMAN] has flicked the ball off his pads for a single, but it has actually gone all the way to fine leg. [BATSMAN] has made a lovely shot, which has resulted in four runs. This innings has been dominated by one player."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_32",
+        "prediction": "[BATSMAN] drives the ball through the covers. The shot was well executed and resulted in four runs.",
+        "truth": "[BATSMAN] drives elegantly through the off side off [BOWLER]'s delivery, scoring four runs."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_60",
+        "prediction": "[BATSMAN] plays a shot, hitting the ball straight down the ground for a four.",
+        "truth": "[BATSMAN] has hit a boundary, capitalizing on a poor delivery from [BOWLER] over the last few overs."
+    },
+    {
+        "vid_id": "CricketVideo3_part4_scene_3",
+        "prediction": "[BATSMAN] plays a defensive shot, moving down the track and edging the ball to third man. The delivery was a good length outside off stump, with [BOWLER] delivering it from around the wicket.",
+        "truth": "[BATSMAN] drives the ball through the off side, timing it perfectly. He leans into the shot, and the ball travels far."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_154",
+        "prediction": "[BATSMAN] drives [BOWLER]'s delivery down the ground for a four.",
+        "truth": "[BATSMAN] is pushed down by [BOWLER] and that will be a boundary to relieve some of the pressure that [TEAM] have had to absorb."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_149",
+        "prediction": "[BATSMAN] scores a boundary, hitting the ball through the off side for four runs.",
+        "truth": "[BATSMAN] reaches a milestone, reaching the 90s."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_10",
+        "prediction": "[BATSMAN] edges this delivery from [BOWLER], and the ball runs down the leg side for four runs.",
+        "truth": "The [BATSMAN] has played a delightful shot, with a powerful clip through the mid-wicket region. The ball was hit off the back foot, and the batsman has managed to find the gap to his leg side, where three fielders are in position. The match is currently taking place at the [VENUE] between Yorkshire and Derbyshire."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_3",
+        "prediction": "[BATSMAN] plays a powerful shot, hitting the ball down the ground for a four.",
+        "truth": "[BATSMAN] hits a 20 for the non against [TEAM NAME] at [VENUE]. [BOWLER] delivers a shorter ball and [BATSMAN] plays it very well, scoring a boundary."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_100",
+        "prediction": "[BATSMAN] drives the ball through the covers, and it races away for four runs. [BOWLER] delivers a loose delivery outside [BATSMAN]'s off stump, and [BATSMAN] clips it away through the gap on the off side for four more runs.",
+        "truth": "[BATSMAN] attempts a shot off the delivery, using his feet to adjust to the increased flight. He executes a fine flick to deep square, and the [FIELDER] is unable to reach it, resulting in four runs for [BATSMAN]. \n\nIn the next delivery, [BATSMAN] drives the ball straight down the ground for four runs, with a beautiful shot."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_143",
+        "prediction": "[BATSMAN] has played a beautiful cover drive for a four runs.",
+        "truth": "[BATSMAN] drives for four, then. He follows it up with another drive, and it's a half-volley that goes outside the [STUMPS]."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_9",
+        "prediction": "[BATSMAN] drives it to the mid-wicket region.",
+        "truth": "[BATSMAN] edges the ball to [FIELDER] at extra cover, who takes a catch to dismiss [BATSMAN] for four runs."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_188",
+        "prediction": "[BATSMAN] looks to go for a run, but [BATSMAN] fails to connect with the ball. [BOWLER] has delivered from [BATSMAN]'s position, and [FIELDER] has taken the catch. A crucial wicket for [BATSMAN], who has been dismissed for 41.",
+        "truth": "[BATSMAN] unsure of the outcome of his shot, let's see if he can capitalize on the next delivery. Yes, [BATSMAN] has taken a wicket in the [VENUE]."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_157",
+        "prediction": "[BATSMAN] is dismissed. [FIELDER] takes the catch. [BOWLER] has dismissed the batsman.",
+        "truth": "[BATSMAN] is dismissed for a duck. A sharp catch by [FIELDER] off the bowling of [BOWLER] has given [TEAM] the breakthrough they were looking for."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_168",
+        "prediction": "The [BATSMAN] plays a defensive shot, batting on the off side with a push down towards third man.",
+        "truth": "[BATSMAN] pulls the ball in the air, but [FIELDER] at midwicket is unable to make the catch. The ball goes over their head and runs to the boundary for four runs."
+    },
+    {
+        "vid_id": "CricketVideo3_part5_scene_11",
+        "prediction": "[BATSMAN] is given out LBW. [BATSMAN] is the fourth batsman to be dismissed in the current over.",
+        "truth": "[BATSMAN] misses a sweep shot and is caught by [FIELDER] off a delivery from [BOWLER], with [FIELDER] positioned at midwicket and short leg."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_161",
+        "prediction": "[BATSMAN] has continued his aggressive streak, hitting another boundary. This time, the delivery from [BOWLER] has been pushed through, resulting in four runs.",
+        "truth": "[BATSMAN] hits a boundary off [BOWLER]'s delivery, as he backs away and plays the shot with precision. The ball sailed past the stumps, resulting in two runs. [BOWLER]'s current tally is 25."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_42",
+        "prediction": "The shot has been played beautifully by [BATSMAN], who has driven the ball straight down the ground.",
+        "truth": "The [BATSMAN] has hit the ball in the air over the infield."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_120",
+        "prediction": "[BATSMAN] regains his composure and hits a powerful drive, sending the ball to the boundary for four runs. This is the first boundary of the over, and it has reduced the required run rate to a manageable level.",
+        "truth": "[BATSMAN] drives the ball for four runs."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_150",
+        "prediction": "[BATSMAN] plays a shot on the back foot, pushing the ball wide of [FIELDER] at mid off.",
+        "truth": "[NBATSMAN] hits the ball hard. The [BOWLER] has a good hand in that."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_107",
+        "prediction": "[BATSMAN] drives [BOWLER]'s delivery through the offside, hitting it straight down the ground for a four.",
+        "truth": "[BATSMAN] plays a beautiful straight drive down the ground for his first runs of the season."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_168",
+        "prediction": "[BATSMAN] plays a defensive shot, pushing the ball back past the [FIELDER]. This results in a boundary, allowing his team to score four runs.",
+        "truth": "The [BATSMAN] has played a shot off the [BOWLER]'s delivery, hitting it through the leg side for a boundary. This results in four runs for the [TEAM]."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_147",
+        "prediction": "[BATSMAN] plays a shot on the leg side, the ball travels towards [FIELDER] at midwicket, who misjudges the catch and allows it to go through.",
+        "truth": "[BATSMAN] has played a loose shot, allowing the ball to go straight through [FIELDER]'s legs for a boundary."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_119",
+        "prediction": "[BATSMAN] moves away from the [BOWLER]'s delivery and hits it through the onside, running a few steps to reach the other end.",
+        "truth": "[BATSMAN] guides the delivery towards third man, with [BOWLER] giving chase. The ball evades [BOWLER]'s grasp and reaches the boundary, with [BATSMAN] scoring a run."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_62",
+        "prediction": "[BATSMAN] has been dismissed, bowled by [FIELDER].",
+        "truth": "The ball has reached the batsman safely."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_102",
+        "prediction": "[BATSMAN] has played a slog sweep off the sixth ball, which has sailed over the boundary, resulting in four runs.",
+        "truth": "[BATSMAN] pulls the delivery, which has been pitched up, and manages to get away from the [FIELDER], resulting in a boundary to deep mid wicket. That's his seventh four in the match."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_121",
+        "prediction": "[BATSMAN] plays a shot into the air, and the ball travels to the boundary. [BOWLER] concedes the four runs, and [BATSMAN] earns himself some valuable bonus points.",
+        "truth": "[BATSMAN] plays a shot around the wicket, pulling the ball, and it's a close call as it could be cut off. However, the fielder at mid wicket is drawn into the action, but he's beaten by a despairing dive. [BATSMAN] manages to hit three boundaries."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_84",
+        "prediction": "[BATSMAN] has hit a big shot off the pace of [BOWLER], playing it through the off side for a boundary.",
+        "truth": "[BATSMAN] edges it to the leg side, the ball is going down that way and it's a four. The [UMPIRE] is checking if it hit the bat first, and it looks like it did. [BATSMAN] reaches his half-century."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_138",
+        "prediction": "[BOWLER] delivers the ball at a good height, and [BATSMAN] strikes it with an attractive shot, scoring four runs.",
+        "truth": "[BATSMAN] cuts the delivery late to collect four runs, moving into the 40s."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_136",
+        "prediction": "[BATSMAN] plays a beautiful shot down the leg side.",
+        "truth": "LBW decision."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_113",
+        "prediction": "The [BATSMAN] has played a beautiful shot, hitting the ball straight back to the [FIELDER] at mid-off. It was a well-executed shot.",
+        "truth": "[BATSMAN] plays a powerful sweep shot, hitting the ball over the boundary for a six, resulting in four runs."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_16",
+        "prediction": "[BOWLER] has bowled around the wicket, dislodging [BATSMAN]. [FIELDER] takes the catch, and [BATSMAN] departs.",
+        "truth": "[BATSMAN] completes the over, and [BOWLER] has something in the air. The umpire signals a catch at short leg, and [FIELDER] takes it. [BATSMAN] [BATSMAN's name] is out. The last over seemed like it might have been the last but [TEAM] manages to get away quickly."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_174",
+        "prediction": "[BATSMAN] scores four runs. [BATSMAN] has played that shot beautifully.",
+        "truth": "He becomes more aggressive after reaching 200."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_109",
+        "prediction": "[BATSMAN] edges it, but the ball is not taken by the [FIELDER] at second slip.",
+        "truth": "A well-timed shot. The last ball of the day is a delivery outside the off stump. The batsman allows it to pass."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_115",
+        "prediction": "[BATSMAN] edges it down the ground, but the ball is too far away for [FIELDER] to reach it.",
+        "truth": "[BATSMAN] has found a gap, playing a powerful shot. The ball sailed over the boundary, landing in the [VENUE] car park."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_70",
+        "prediction": "[BATSMAN] has reached a century. He was given out in that situation, but the umpire has changed his decision. [BATSMAN] will retire, having scored 100 runs.",
+        "truth": "[BATSMAN] is given out, a decision that is confirmed. [BOWLER] delivers a delivery that swings sharply to leg, [BATSMAN] initially hesitates, then consults with his partner. The [UMPIRE] upholds the decision immediately."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_172",
+        "prediction": "[BATSMAN] has hit a boundary with a well-timed shot, playing a loose delivery from [BOWLER]. The ball was paced well and went through the square region, with [FIELDER] following it up.",
+        "truth": "[BATSMAN] pushes for a single, but [BOWLER] delivers a quick and low ball, making it difficult for the batsman to react. [BATSMAN] attempts to get out of the way just in time, narrowly avoiding a collision with [FIELDER] from [VENUE]."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_30",
+        "prediction": "[BATSMAN] has played a beautiful shot, hitting the ball straight down the ground.",
+        "truth": "The team scores 10 runs, taking their total to 122."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_89",
+        "prediction": "[BOWLER] has bowled a good delivery. [BATSMAN] tries to drive it through the outer edge, but [BOWLER] has the advantage, as [BATSMAN] is beaten. [BATSMAN] pushes a ball through the on side, with [BOWLER] bowling it wide. [BATSMAN] attempts to score a run, but [BOWLER] prevents it with a good length delivery. [BOWLER] bowls a good length delivery outside the off stump, which [BATSMAN] attempts to drive, but misses it. [BOWLER] bowls a good length delivery outside the off stump, which [BATSMAN] attempts to drive, but misses it. [BOWLER] bowls a good length delivery outside the off stump, which",
+        "truth": "[BATSMAN] played a loose shot and was caught behind after edging [BOWLER]'s delivery. [BATSMAN] then took a big swing at the next ball, which went all the way to the crowd, with [BATSMAN] getting a good connection."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_98",
+        "prediction": "[BATSMAN] plays a well-timed shot, hitting the ball straight down the ground.",
+        "truth": "Delivery two, [BATSMAN] hits a straight drive down the ground, scoring four runs and taking his total to six."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_60",
+        "prediction": "[BATSMAN] plays a sweep shot, scoring four runs, in the process.",
+        "truth": "[BOWLER] delivers a quick delivery and [BATSMAN] has plenty of time to react."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_99",
+        "prediction": "[BATSMAN] hits a six, scoring 100 runs. [BATSMAN] and [BATSMAN] have built a solid partnership.",
+        "truth": "[BATSMAN] plays a shot to the offside, reaching his half-century, in a close call where he and his partner almost collided while taking a run, but [BATSMAN] safely secures the single."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_110",
+        "prediction": "[BATSMAN] hits the ball through the air, and it sails over the boundary for four runs. The [BOWLER] delivers the ball, and [BATSMAN] responds by hitting it, resulting in a four.",
+        "truth": "[BATSMAN] clips the ball into the leg side, and it carries towards the square leg boundary. [FIELDER] runs around the boundary but is unable to control the ball, which crosses the boundary."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_172",
+        "prediction": "[BATSMAN] scores four runs as the ball is hit wide of the fielder at deep third man.",
+        "truth": "As this short ball comes in, it doesn't matter how many fielders are placed on the leg side."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_27",
+        "prediction": "[BATSMAN] has played a shot on the back foot, hitting the ball between mid-on and long off for four runs.",
+        "truth": "The umpire is having a tough time deciding whether that was a glove or arm, but the batsman has taken advantage of the uncertainty to score another boundary."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_31",
+        "prediction": "The delivery was of a good length and width.",
+        "truth": "\"Good length, on a good line, [BATSMAN] looks to defend, but it's a bit too quick.\""
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_202",
+        "prediction": "[BATSMAN] drives the delivery to the mid-wicket region, reaching a score of 83 runs.",
+        "truth": "A crisp shot, rewarded with four runs."
+    },
+    {
+        "vid_id": "CricketVideo2_part2_scene_16",
+        "prediction": "The delivery is down the leg side, and the ball is hit straight down the ground.",
+        "truth": "[ACTION] has played a trademark shot."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_69",
+        "prediction": "[BATSMAN] hits a four, scoring four runs for his team as the delivery from [BOWLER] is edged towards the fine leg region.",
+        "truth": "[BATSMAN] has given [BOWLER] a chance to return, as the umpire has given them out leg before wicket. However, [BATSMAN] gets a reprieve, as [BOWLER] concedes a boundary to [BATSMAN], who times a shot beautifully to the leg side for four."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_63",
+        "prediction": "[BATSMAN] plays a good shot, hitting the ball with authority to the leg side.",
+        "truth": "[BATSMAN] plays a beautiful shot with good timing and placement, but it was a slightly short shot."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_20",
+        "prediction": "The [BATSMAN] plays a defensive shot with a late cut.",
+        "truth": "The [BATSMAN] played a shot that appeared to be heading straight to extra cover, but it didn't get there due to the movement of the ball."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_138",
+        "prediction": "[BATSMAN] comes out to the middle stump.",
+        "truth": "The batsman is scoring well, with a couple of boundaries down the leg side, but the keeper has been able to prevent any runs from going to the boundary."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_57",
+        "prediction": "[BATSMAN] plays a shot in the air towards the boundary, but the ball carries through to third man for a four.",
+        "truth": "[BATSMAN] is dismissed for 33, caught by [FIELDER] off a shot that was hit high in the air."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_33",
+        "prediction": "[BOWLER] delivers a full toss, and it is punched to the boundary for four runs, scoring 100 for [BATSMAN].",
+        "truth": "[BATSMAN] attempts a reverse shot, the ball travels all the way to the boundary, beating [FIELDER]."
+    },
+    {
+        "vid_id": "CricketVideo2_part1_scene_20",
+        "prediction": "[BATSMAN] is set to score a half-century, having faced 49 balls.",
+        "truth": "There is not enough information to rephrase the commentary."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_132",
+        "prediction": "[BATSMAN] goes on the attack, driving the ball through the off side for four runs. This is the first boundary of the over.",
+        "truth": "[BATSMAN] departs for 26. [BOWLER] strikes again, as [BATSMAN] falls short of a shot. The next batsman, [BATSMAN], comes in at the crease. [BOWLER] delivers a fast delivery, which edges off the leading edge and reaches the boundary ropes."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_45",
+        "prediction": "[BATSMAN] plays a beautiful drive, sending the ball straight down the ground for four runs.",
+        "truth": "[BATSMAN] looks to finish this over, every pitch is up, he drives down the ground, resulting in a four, straight down the ground."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_108",
+        "prediction": "[BATSMAN] plays a defensive shot, and the ball goes past the edge of the [FIELDER]'s gloves at third slip, resulting in four runs.",
+        "truth": "[BATSMAN] executes a well-timed shot off the back foot, scoring four runs."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_4",
+        "prediction": "[BATSMAN] plays a drive, hitting the ball straight to the point fielder, who makes the stop.",
+        "truth": "[BATSMAN] hits a boundary through square leg for 4 runs. The ball moved away from the [BOWLER] as it left their hand."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_132",
+        "prediction": "[BATSMAN] plays a shot through the off side, and the ball travels all the way to the boundary for four runs.",
+        "truth": "[BATSMAN] drives [BOWLER]'s delivery to extra cover, where [FIELDER] Scriven is unable to reach it, and [FIELDER] Curry also fails to cover the shot."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_2",
+        "prediction": "[BATSMAN] plays a beautiful shot, hitting the ball with a lot of power.",
+        "truth": "The ball is driven down the ground, and the fielder at mid-on is unable to make the catch."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_83",
+        "prediction": "[BOWLER] delivers a well-paced delivery, which is successfully negotiated by [BATSMAN], who plays a beautiful shot down the ground, resulting in four runs.",
+        "truth": "[BATSMAN] plays a beautiful shot, the ball should carry to the boundary. The chase for the runs will be unsuccessful. [BATSMAN] has hit a lovely drive, the ball was full and lengthy."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_63",
+        "prediction": "[BATSMAN] drives the delivery from [BOWLER] straight down the ground for four runs.",
+        "truth": "[BATSMAN] hits a shot, [BOWLER] comes in, [BATSMAN] down the wicket, [BATSMAN] attempts a drive but the [BOWLER] tries to push it wide."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_36",
+        "prediction": "[BATSMAN] drives the ball through the off side for a four.",
+        "truth": "[BATSMAN] drives the delivery for four, finding the gap through the off side."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_82",
+        "prediction": "[BATSMAN] reaches 50, it is his 50th 50 in 50 overs at ickle.",
+        "truth": "[NICKNAME] is through to double figures."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_138",
+        "prediction": "[BATSMAN] plays a beautiful drive, scoring four runs. He is looking very impressive.",
+        "truth": "[BATSMAN] has edged the ball to mid wicket, allowing [BATSMAN] to take a single, ending the session."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_30",
+        "prediction": "[BATSMAN] scores a run, making it to 90.",
+        "truth": "The field is set with a deep square leg and a long leg."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_52",
+        "prediction": "[BATSMAN] has reached his century, it's his 25th time reaching three figures in the first division.",
+        "truth": "\"Essex reaches 264 for four wickets.\""
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_63",
+        "prediction": "[BATSMAN] plays a beautiful shot, cutting the ball away to the off side for four runs.",
+        "truth": "[BATSMAN] plays a defensive drive with a well-timed shot."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_30",
+        "prediction": "[BATSMAN] plays a shot on the offside, with the ball running away for four.",
+        "truth": "No commentary provided."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_7",
+        "prediction": "The batsman has struck a shot through the covers, scoring four runs.",
+        "truth": "[BATSMAN] hits a shot to the third man boundary, scoring four runs."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_34",
+        "prediction": "[BATSMAN] attempts a big heave, but [BOWLER] has delivered a slower ball that has gone over the boundary for four runs.",
+        "truth": "[BOWLER] delivers the first ball, which is dispatched towards the wide [SIDE] boundary by [BATSMAN]."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_68",
+        "prediction": "[BATSMAN] plays a beautiful shot, hitting the ball through the off side for four runs.",
+        "truth": "\"Four runs scored, the ball has cleared the boundary on the leg side.\""
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_71",
+        "prediction": "[BATSMAN] reaches his half-century, scoring 45 runs off 100 balls.",
+        "truth": "[BATSMAN] executes a controlled pull shot, scoring four runs."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_148",
+        "prediction": "[BOWLER] delivers the ball to [BATSMAN], and the [BATSMAN] looks to defend it.",
+        "truth": "[BATSMAN] plays a tentative forward defensive shot, allowing the ball to pass."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_95",
+        "prediction": "[BATSMAN] has played a beautiful shot, hitting the ball through the off side.",
+        "truth": "[UMPIRE] signals a boundary, a shot that was not so fortunate for [BATSMAN], as it was caught by [FIELDER] after being blocked by the board."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_96",
+        "prediction": "[BATSMAN] plays a well-timed shot, hitting the ball between mid-on and mid-off.",
+        "truth": "[BATSMAN] gets off the mark with a stylish shot, playing a short ball from [BOWLER]."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_24",
+        "prediction": "[BATSMAN] plays a powerful shot, striking the ball between midwicket and mid-off for a boundary, as the [BOWLER] fails to field it.",
+        "truth": "[BATSMAN] leaves the delivery, plays and leaves again, accumulating 11 runs from the shot."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_11",
+        "prediction": "[BOWLER] delivers the next ball, which [BATSMAN] pulls it away to the boundary for four. The [BATSMAN] has been struggling with his footwork, but this shot shows signs of improvement.",
+        "truth": "[BATSMAN] punches away through the offside, scoring four runs. The score is now 75/2."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_18",
+        "prediction": "[BATSMAN] is playing a fine shot. He's made a good connection with the ball, which is moving through the air.",
+        "truth": "[BOWLER] delivers a back of a length delivery. [BATSMAN] pushes the ball away to score a boundary."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_67",
+        "prediction": "[BOWLER] delivers a short-pitched ball, and [BATSMAN] fails to connect with it, the ball hits his bat and goes to the boundary for four runs.",
+        "truth": "[BATSMAN] has played a short pull with control. The [FIELDER] at the boundary is in position to catch it, but it's [BATSMAN] who is running, with [BATSMAN] beating the [FIELDER] to the ball."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_106",
+        "prediction": "[BATSMAN] takes a single, running quickly between the wickets.",
+        "truth": "[BATSMAN] hits a boundary. Two runs are scored. The shot bisects the midwicket and short midwicket regions, resulting in four runs."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_111",
+        "prediction": "[BOWLER] delivers a full toss, and [BATSMAN] responds with a powerful swipe, hitting the ball hard and sending it over the boundary for six.",
+        "truth": "[BATSMAN] is playing aggressively, hitting two sixes and a four in quick succession."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_40",
+        "prediction": "[BATSMAN] plays a defensive shot, blocking the delivery.",
+        "truth": "[BATSMAN] has played a sweep shot, and the ball has gone for a boundary towards deep backward point."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_52",
+        "prediction": "The [BATSMAN] has been dismissed, bowled by the [BOWLER].",
+        "truth": "The ball has been nicked, and it has carried through to the slips. The slip fielders have made a good catch."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_136",
+        "prediction": "[BATSMAN] has reached his 100 runs, a notable achievement. He has played a shot down the ground through the [BATSMAN] has played a shot through the [BATSMAN] has played a shot down the ground through the [BATSMAN] has played a shot down the ground through the [BATSMAN] has played a shot down the ground through the [BATSMAN] has played a shot down the ground through the [BATSMAN] has played a shot down the ground through the [BATSMAN] has played a shot down the ground through the [BATSMAN] has played a shot down the ground through the [BATSMAN] has played a shot down the ground through the [BATSMAN] has played a shot down the ground",
+        "truth": "[BATSMAN] has fallen to a similar dismissal as in the first innings. [BOWLER] has struck again. [BATSMAN] played a short shot, but the ball was given out plumb. The [UMPIRE] has adjudged him out. The decision is being reviewed."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_113",
+        "prediction": "[BATSMAN] drives [BOWLER]'s delivery through the covers for a boundary, reaching 30 runs in the process.",
+        "truth": "[BATSMAN] drives the ball down the ground, a shot that appears to be airborne momentarily before landing safely, with [BOWLER] wide of the mark in his follow-through."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_117",
+        "prediction": "[BATSMAN] plays a shot to mid on, sending the ball over the boundary. It results in six runs.",
+        "truth": "[BATSMAN] edges it through the mid-wicket region, a powerful shot that soars over the boundary for four runs."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_146",
+        "prediction": "[BATSMAN] drives [BOWLER] a beautiful shot through the covers.",
+        "truth": "[BATSMAN] drives the straight delivery towards mid-on, and the fielder at mid-on misjudges the ball, allowing it to sail over the boundary for four runs."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_31",
+        "prediction": "[BATSMAN] plays a good shot, hitting the ball well to the onside, scoring four runs.",
+        "truth": "[BATSMAN] punches the ball with decent timing, and the shot is well-executed. The ball travels towards mid-wicket, and [BATSMAN] reaches a score in the 90s."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_173",
+        "prediction": "[BATSMAN] plays a beautiful shot, hitting the ball through the off side.",
+        "truth": "[NBATSMAN] plays a well-timed shot, which should result in a run after getting onto the square."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_101",
+        "prediction": "The [BATSMAN] has played a beautiful shot through the covers.",
+        "truth": "The batsman has found the gap between the fielder."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_120",
+        "prediction": "[BATSMAN] plays a beautiful drive through the gully region.",
+        "truth": "[BATSMAN] sweeps the ball again."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_123",
+        "prediction": "[BATSMAN] plays a defensive shot on the leg side, hitting the ball straight to [FIELDER], who takes the catch.",
+        "truth": "[BATSMAN] cuts a short ball away towards the stands. He timed the shot well."
+    },
+    {
+        "vid_id": "CricketVideo3_part2_scene_17",
+        "prediction": "[BATSMAN] plays a shot down the leg side, resulting in four runs. The [BATSMAN] will reach his half-century in the next over.",
+        "truth": "[BATSMAN] is looking to make a century, having scored 86 from 163 balls. In contrast, [BOWLER] has been more aggressive in his approach. [BATSMAN] drives [BOWLER]'s spin delivery for four, the second boundary in the first over of spin today."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_61",
+        "prediction": "[BATSMAN] plays a well-timed shot, driving the ball beautifully, and the ball runs away for four runs, with the fielders having no chance of stopping it.",
+        "truth": "[BATSMAN] edges one short now that he's got underneath this one and should be caught by [FIELDER] he is that is the end of [BATSMAN] for 20 and the end of Yorkshire's innings."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_142",
+        "prediction": "[BATSMAN] has scored 12 runs with a shot to the leg side, including [BATSMAN]'s first boundary.",
+        "truth": "[BATSMAN] has clipped the ball towards long on. [BOWLER] has given up the chase, and [BATSMAN] can conserve energy now. The over is over."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_88",
+        "prediction": "[BATSMAN] drives him away for four runs. He takes advantage of the over-pitched delivery and hits it straight back over the bowler's head. [BOWLER] bowls a no-ball, which is wide, and [BATSMAN] responds by hitting him for four runs through the offside. [BOWLER] delivers the next ball, which is wide, and [BATSMAN] responds by hitting it for four runs through the offside.",
+        "truth": "[BOWLER] delivers a loose delivery on leg stump, which [BATSMAN] plays to the forward square leg region, resulting in four runs. The [BOWLER] begins with a questionable overstep, inviting [BATSMAN] to take advantage, and he does so with a confident stroke."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_154",
+        "prediction": "The [BATSMAN] plays a beautiful stroke, hitting the ball straight down the ground for four runs.",
+        "truth": "[BATSMAN] hits a boundary with a powerful shot, the ball was short but not stopped by the [FIELDER] at mid on, allowing the ball to pass through and reach the boundary."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_134",
+        "prediction": "[BATSMAN] edges the delivery to the off side, scoring four runs.",
+        "truth": "[BATSMAN] reaches his half-century."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_51",
+        "prediction": "[BATSMAN] has hit the ball between the infielders, running between the [FIELDER] and cover, to score a boundary.",
+        "truth": "[BATSMAN] breaks through the infield and scores a boundary via a powerful shot, with the ball sailing over mid-off for four runs. [BATSMAN]'s score now stands at 120."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_121",
+        "prediction": "[BATSMAN] reaches his half-century from 91 deliveries.",
+        "truth": "[BATSMAN] fails to connect with a shot at gully."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_121",
+        "prediction": "[BATSMAN] executes a fine shot, hitting the ball with good timing to score four runs.",
+        "truth": "[W]ent beyond the realms of possibility. Just to pick up a couple of wickets quite quickly."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_114",
+        "prediction": "[BATSMAN] is dismissed for 92, as [BOWLER] delivers a full and straight delivery that swings away from the batsman, who edges the ball to [FIELDER] at first slip, who takes the catch.",
+        "truth": "[BATSMAN] on 156. Big appeal. Decision given: [UMPIRE] raises LBW finger. Glamorgan were keen on that one for obvious reasons, and [BATSMAN]'s innings comes to an end."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_88",
+        "prediction": "[BATSMAN] pumps his legs and drives a delivery from [BOWLER] down the ground to the boundary, scoring four runs. He then attempts a similar shot on the next ball, but it is fielded by [BOWLER] on the boundary.",
+        "truth": "[BATSMAN] takes a stride in, playing a magnificent shot. The delivery was slightly short of length, just outside the off stump."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_160",
+        "prediction": "[BATSMAN] nurses the ball to the leg side, and [BOWLER] Shropshire delivers the next ball. [BATSMAN] edges it, and the batsman sets off for a run. [BATSMAN] attempts to steal a second run, but is sent back by his partner. [BOWLER] Shropshire throws the ball to [BATSMAN]'s end, and [BATSMAN] is run out, returning to the pavilion.",
+        "truth": "The [BATSMAN] played a cautious innings, focusing on getting runs off the legs. A quick run was attempted, but the [BOWLER], Kemar Roach, was able to quickly close the gap. The [BATSMAN] departed after a half-century, leaving the team in a challenging situation."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_63",
+        "prediction": "[BATSMAN] plays a good shot, hitting the ball well to the leg side.",
+        "truth": "Commentary: [BATSMAN] helps the ball down towards third, and [FIELDER] Meyei makes a great catch underneath it."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_71",
+        "prediction": "[BATSMAN] scores runs, hitting the ball to the boundary, as the [BATSMAN] takes on the delivery from [BOWLER], playing a defensive shot.",
+        "truth": "The batsman will be awarded four runs."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_130",
+        "prediction": "[BATSMAN] punches the ball straight down the ground, with the shot well-executed. The [BOWLER] concedes the run.",
+        "truth": "[BATSMAN] moves down the ground, playing a lovely shot. Middlesex reaches 366 for four. [BATSMAN] is nearing a century."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_152",
+        "prediction": "[BATSMAN] hits a boundary, scoring four runs with a shot through the off side.",
+        "truth": "[BATSMAN] has hit the ball through point for four runs."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_71",
+        "prediction": "[BATSMAN] plays a shot, scoring a run. However, [FIELDER] attempts to take the catch, but misses. The ball travels through to the boundary, resulting in four runs.",
+        "truth": "[BOWLER] delivers a full-length delivery, inviting [BATSMAN] to drive. The first delivery of the morning is well-placed, and [BATSMAN] takes advantage, hitting a boundary."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_35",
+        "prediction": "[BATSMAN] has been dismissed, a well-taken catch by [BOWLER] has been taken. [BOWLER] has removed [BATSMAN], who was scoring off [BOWLER], with a well-judged delivery.",
+        "truth": "[BATSMAN] plays a classic shot, angling the ball into the legs and working it down the ground for four runs."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_112",
+        "prediction": "[BATSMAN] has driven the ball firmly, but it was put down by [BOWLER] in the slips, resulting in four runs.",
+        "truth": "[NBATSMAN] drives it through the ground with an attractive shot, earning [TEAM] four runs."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_140",
+        "prediction": "[BATSMAN] pulls out a short pitched delivery from [BOWLER], and it goes through the air to the boundary for four runs.",
+        "truth": "Here's the standardized commentary:\n\nThe [BATSMAN] has played a powerful cut shot to midwicket, scoring four runs. The [BOWLER] initially appeared to have bowled a loop but the ball bounced and dipped, making it difficult to control. The [BATSMAN] took advantage of the delivery, cutting it for four. The [BOWLER]'s line was not entirely faulted, as the ball was still a challenging one to play."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_196",
+        "prediction": "[BATSMAN] dismissed. [BOWLER] takes the wicket, his first of the match.",
+        "truth": "I'm afraid I don't have a commentary to rephrase. Please provide the commentary, and I'll be happy to assist."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_198",
+        "prediction": "[BATSMAN] plays a strong shot, hitting the ball through the off side, mid-wicket region.",
+        "truth": "[BATSMAN] has played a beautiful shot, a crisply hit drive, with a long half volley, to score four runs."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_127",
+        "prediction": "[BATSMAN] plays a shot through mid-wicket, sending the ball past mid-on for four runs. This is the first four of the innings for [BATSMAN], who has struggled for runs so far.",
+        "truth": "[BATSMAN] guides the delivery from [BOWLER] to the offside for a boundary, reaching three figures for the 37th time in his career."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_94",
+        "prediction": "[BATSMAN] is out. [BATSMAN] attempts a drive, but the ball is caught by [FIELDER].",
+        "truth": "[BATSMAN] is out for eight, dismissed by [BOWLER] Matthew Fisher."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_103",
+        "prediction": "[BATSMAN] plays a beautiful shot, scoring four runs.",
+        "truth": "[BATSMAN] is off to a strong start, having played two notable shots in his short time at the crease, which bear a resemblance to some of the shots he has played so far in the match."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_116",
+        "prediction": "[BOWLER] delivers a full toss, which is hit over the boundary for four runs. The ball travels all the way to the other end of the pitch.",
+        "truth": "[BATSMAN] is in to hit a high shot over the square leg region. The delivery from [BOWLER] was poorly executed and has the potential to clear the boundary."
+    },
+    {
+        "vid_id": "CricketVideo3_part5_scene_16",
+        "prediction": "[BATSMAN] has fallen to [BOWLER], who has taken his second wicket of the innings. [BATSMAN] has departed, and [BATSMAN] is now out for 51. [BATSMAN] was caught by [FIELDER] at midwicket. [BATSMAN] has now scored 51 off 90 balls with two sixes and four fours.",
+        "truth": "[BATSMAN] has opted against taking a single and instead chose to hit the fifth ball of the over for four. The [BOWLER] has been punished once again. The full toss was hit flat through the mid-off region by [BATSMAN], resulting in four runs. This has taken the total to 111 in 31 overs with no wickets lost."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_61",
+        "prediction": "[BATSMAN] has played a beautiful shot, hitting [BOWLER] [BOWLER] with a six. The ball has gone over the boundary for four runs, reducing the deficit to just over 100.",
+        "truth": "[BATSMAN] plays a good shot, looking to put pressure on the fielding team."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_177",
+        "prediction": "[BATSMAN] plays a shot that results in four runs, hitting the ball straight down the ground.",
+        "truth": "[BATSMAN] has driven the ball down the ground, scoring four runs."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_79",
+        "prediction": "[BATSMAN] drives through the leg side, with the ball moving away slightly. [BOWLER] concedes four runs.",
+        "truth": "[BATSMAN] edges the ball to the leg side. A well-placed drive from [BATSMAN] as the ball pitches outside the leg stump. The shot is perfectly timed."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_45",
+        "prediction": "[BOWLER] delivers the ball, which is too far away from the batsman, and it's four.",
+        "truth": "[BATSMAN] drives the ball back over the [BOWLER] with a defensive shot."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_30",
+        "prediction": "[BOWLER] concedes four runs.",
+        "truth": "The field is set up with a vacant third man position."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_5",
+        "prediction": "[BATSMAN] scores four with a reverse sweep.",
+        "truth": "[BATSMAN] is dismissed, caught at slips. [BATSMAN] departs after a lucky break, with [BOWLER] earning the first wicket of the game."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_67",
+        "prediction": "[BATSMAN] has played a beautiful shot, and he has reached the 50 milestone with a four. He has been in fine form today, and this is his first half-century of the season.",
+        "truth": "[BATSMAN] has taken on [BOWLER] again, punching the ball towards the vacant field. It's a quick run to the boundary and they have managed to score four runs."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_116",
+        "prediction": "[BATSMAN] plays a shot through the off side, scoring four runs.",
+        "truth": "[BATSMAN] has hit the ball with a strong shot, using his height to his advantage. He has played a lovely shot through the point region."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_68",
+        "prediction": "[BATSMAN] plays a shot on the leg side, and the ball travels to the deep mid-wicket region for four runs.",
+        "truth": "[BATSMAN] drives the delivery on the up through the covers to the Western Terrace."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_62",
+        "prediction": "[BATSMAN] edges the ball to the fine [UMPIRE], and the ball runs away for four runs.",
+        "truth": "[ACTION] cuts [SHOT] late off [SIDE]. That's a good [SHOT] because there's no [FIELDER] out."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_146",
+        "prediction": "[BATSMAN] is dismissed, bowled around his stump by [BOWLER] Shams. The [BOWLER] has broken through with a well-displaced delivery, which has been driven in the air towards midwicket. The ball has been caught by the fielder, and the wicket has fallen.",
+        "truth": "[BATSMAN] may be feeling the effects of yesterday's short deliveries. He has managed to score runs off an edge. The fielding team has placed two slips in position. A third slip would have likely prevented this run."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_99",
+        "prediction": "[BATSMAN] reaches 25 at the halfway stage.",
+        "truth": "[BATSMAN] has played a good shot, but it has resulted in a nick to the [FIELDER]."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_105",
+        "prediction": "[BATSMAN] plays a shot along the ground towards the leg side, resulting in four runs.",
+        "truth": "[BATSMAN] capitalises on the delivery from [BOWLER], punching it through backward point for four runs."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_76",
+        "prediction": "[BATSMAN] scores a run with a good shot, hitting the ball between deep point and cover point.",
+        "truth": "[BATSMAN] just missed out on another opportunity, scoring a second boundary."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_40",
+        "prediction": "[BATSMAN] has played a shot through the covers.",
+        "truth": "The ball continued to travel."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_23",
+        "prediction": "[BATSMAN] scores at [BATSMAN]'s 40. [BATSMAN]'s 50 comes up. A good over for [BATSMAN].",
+        "truth": "[BATSMAN] plays a shot, but it's not a great shot. [BOWLER] short-pitched it, but [BATSMAN] couldn't capitalize."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_81",
+        "prediction": "[BOWLER] delivers this one around the wicket, it's swung away for four.",
+        "truth": "[BATSMAN] moves on to 68 and [BOWLER] is back on strike. [BOWLER] steps back and delivers this one, and [BATSMAN] hits it square on the leg side for a six. The shot is reminiscent of his opening partner's style."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_152",
+        "prediction": "[BATSMAN] has scored 10 runs in this over, putting the team within striking distance of reaching 200. [BATSMAN] has been dismissed for 93 runs, making this his highest score in a limited-overs game. [BOWLER] has made a significant contribution to the team's total.",
+        "truth": "[BATSMAN] drives the ball for four runs. Number 6 is now batting at number 10. [BATSMAN] slaps the next delivery for another boundary, scoring 5 runs. The team is currently at 8 for 5.30. [BATSMAN] punches the next delivery for four runs, taking his score to 15. He is showcasing his batting skills. [BATSMAN] chops the next delivery for another boundary. The score will be another four runs. [BATSMAN] is currently on 19. [BATSMER] trails behind [BATSMAN]."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_44",
+        "prediction": "The [BATSMAN] has scored a run after hitting a shot through the off side.",
+        "truth": "[BATSMAN] celebrates his century by removing his helmet."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_86",
+        "prediction": "[BATSMAN] plays a shot outside the [BOWLER]'s delivery, hitting it straight down the ground for four runs.",
+        "truth": "[UMPIRE] signals four runs as [BATSMAN] hits a powerful shot, with the ball going all the way to the boundary. A good diving effort by [FIELDER] fails to prevent the ball from crossing the rope."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_40",
+        "prediction": "The [BATSMAN] has played a shot through the covers, and the ball has gone to the boundary.",
+        "truth": "[BATSMAN] reaches out for the delivery."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_159",
+        "prediction": "[BATSMAN] is playing well and looking set for a century.",
+        "truth": "[BATSMAN] pushes the ball to square leg."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_17",
+        "prediction": "The ball is hit directly to the fielder who throws the ball to the bowler.",
+        "truth": "A boundary has been hit, resulting in four runs. The batsman is gaining momentum."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_173",
+        "prediction": "[BATSMAN] is bowled, [BATSMAN] is dismissed by a [BOWLER] delivery.",
+        "truth": "[BATSMAN] struck the pad down low, keeping the score low and [BOWLER] claimed a wicket. Unfortunately, it was a difficult delivery to handle, as it seemed to keep low on [BATSMAN] as he attempted to play a shot to the leg side."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_134",
+        "prediction": "[BATSMAN] strikes the ball through the off side for a single, bringing up a vital four for the [BATSMAN]. The [BATSMAN]'s shot placement was on-point.",
+        "truth": "[BATSMAN] drives [BOWLER]'s delivery through the covers for four."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_159",
+        "prediction": "[BATSMAN] is into his shot. The delivery from [BOWLER] was a straight one that was angled across the stumps.",
+        "truth": "[BATSMAN] gets off the mark with a neat tuck shot, played out to deep mid wicket."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_180",
+        "prediction": "[BATSMAN] edges him to [BATSMAN], who takes the catch. [BATSMAN] dismissed. The [BATSMAN] looks frustrated as he walks off. [BOWLER] [BATSMAN] has taken the crucial wicket.",
+        "truth": ""
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_145",
+        "prediction": "[BATSMAN] plays a beautiful shot, sending the ball over the boundary for four. The over has produced two boundaries so far, both of which have been well-played by [BATSMAN].",
+        "truth": "A well-struck shot, traveling straight down the ground, with [BATSMAN] displaying impressive power as the ball passed the [BOWLER]."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_164",
+        "prediction": "[BATSMAN] is out. [BOWLER] gets the wicket of [BATSMAN], who attempted a sweep shot but misconnected with the shot. The ball was caught by [FIELDER], who took the catch.",
+        "truth": "[BOWLER] delivers the ball to [BATSMAN], who attempts a shot to the leg side. [FIELDER] at catching mid wicket makes a brilliant diving catch to his right, securing the second wicket for [BOWLER]."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_44",
+        "prediction": "[BATSMAN] plays a beautiful shot, sending the ball over the boundary with a powerful stroke.",
+        "truth": "[BATSMAN] drives the [BOWLER]'s full delivery with a beautiful shot."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_1",
+        "prediction": "[BATSMAN] plays a shot through the off side, scoring four runs. However, he must be careful as the next ball sails over the boundary, resulting in six runs.",
+        "truth": "[BATSMAN] edges the delivery through fifth slip for the first runs of the match. He scores a couple off the over, but fails to get a run from the shot, as [BATSMAN] doesn't quite drag it through to the boundary."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_4",
+        "prediction": "[BATSMAN] has driven the ball through the off side for a single, scoring four runs in all.",
+        "truth": "[BATSMAN] gets a reprieve, as [BOWLER] delivers an excellent over."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_171",
+        "prediction": "[BATSMAN] has played a shot, pulling the ball through the leg side. The [BATSMAN] has scored four runs.",
+        "truth": "The match tomorrow is expected to be won. [BATSMAN] is dismissed off the first ball of the [BOWLER]'s spell, with [BATSMAN]'s powerful shot reaching the boundary."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_98",
+        "prediction": "[BATSMAN] pushes the drive through the vacant patch, but [FIELDER] fails to cut off the shot. The ball goes to the boundary for a four.",
+        "truth": "[BATSMAN] drives the delivery with a straight bat, playing it nicely back up the ground. That's the shot of the inning so far."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_170",
+        "prediction": "The [BATSMAN] plays a beautiful shot, hitting the ball straight down the ground for four runs.",
+        "truth": "[BATSMAN] pulls the short ball more convincingly this time."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_32",
+        "prediction": "The bowler has delivered a well-placed ball, which has been hit for four runs by the batsman.",
+        "truth": "[BATSMAN] scores a beautiful drive through the covers to bring up his fifth consecutive half century for [TEAM]. It has been a very consistent start to the season."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_151",
+        "prediction": "[BATSMAN] is dismissed, bowled by [BOWLER].",
+        "truth": "The [UMPIRE] quickly raised the finger, and [BATSMAN] is given out LBW."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_84",
+        "prediction": "[BATSMAN] plays a good shot, scoring a run.",
+        "truth": "[BATSMAN] hits a big shot. The ball travels far, one of the longest hits of the match so far."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_38",
+        "prediction": "[BATSMAN] edges it and runs away for a single. It was a well-timed shot, but unfortunately, it wasn't quite far enough away from the wicket-keeper.",
+        "truth": "[UMPIRE] signals a wide. [BOWLER] delivers a wide delivery. The [FIELDER] at point is in a good position, but the ball goes just past him."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_83",
+        "prediction": "The [BATSMAN] has played a shot, hitting the ball to the off side.",
+        "truth": "The [BATSMAN] has defended the ball outside the off stump, managing to put his bat through it."
+    },
+    {
+        "vid_id": "CricketVideo2_part2_scene_24",
+        "prediction": "[BATSMAN] has used his bat to good effect, forcing the ball to the leg side.",
+        "truth": "Commentary: The [BATSMAN] has hit the ball quite far."
+    },
+    {
+        "vid_id": "CricketVideo3_part2_scene_5 (2)",
+        "prediction": "[BATSMAN] scores a four with a big shot, hitting the ball hard and flat.",
+        "truth": "[BATSMAN] pushes the ball through the leg side for a single."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_118",
+        "prediction": "[BATSMAN] drives the ball straight down the ground, resulting in a four runs.",
+        "truth": "[BATSMAN] drives the ball beautifully, scoring off [BOWLER]. The fielder, [FIELDER], at mid-off, makes a desperate dive but the ball is just outside the reach."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_96",
+        "prediction": "[BATSMAN] comes forward and plays a shot through midwicket, [FIELDER] takes the catch and it's a wicket for [BOWLER].",
+        "truth": "[BATSMAN] plays a beautiful drive to the offside, a shot that surpasses his previous ones in quality."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_145",
+        "prediction": "[BATSMAN] drives it through the covers, producing a beautiful shot. The ball travels to the boundary for four runs.",
+        "truth": "[BATSMAN] has scored a boundary, hitting an attacking shot against [BOWLER]'s delivery."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_8",
+        "prediction": "[BATSMAN] drives [BOWLER]'s delivery down the ground, resulting in four runs.",
+        "truth": "[BATSMAN] drives the full delivery from [BOWLER] for four runs."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_28",
+        "prediction": "[BATSMAN] circles the boundary. He executes a well-timed shot and is off to a good start, hitting the ball through the offside.",
+        "truth": "[BATSMAN] plays a shot upishly but carves it over the fielder at point, resulting in a boundary for four."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_56",
+        "prediction": "[BATSMAN] forces the ball in the air, and [BATSMAN] runs quickly to third base to score a run. The [BATSMAN] [BATSMAN] scores a run on a four by [BOWLER].",
+        "truth": "[BATSMAN] executes a well-timed back foot drive through the extra cover region, resulting in a certain boundary."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_66",
+        "prediction": "[BATSMAN] scores four runs with a drive through the backward point field.",
+        "truth": "The over comes to a close as [BATSMAN] drives a wide delivery to the backward square region, scoring four runs. The [FIELDER], Alex Dowell, is unable to reach the ball."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_49",
+        "prediction": "[BATSMAN] has reached his 50.",
+        "truth": "[BATSMAN] is beaten and the ball is wrapped on the pad, but umpire signals leg before wicket."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_79",
+        "prediction": "[BATSMAN] pushes the ball through the vacant third man position for four runs. A well-timed shot through the covers.",
+        "truth": "[BATSMAN] drives the ball to the wide long off boundary for a four."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_120",
+        "prediction": "[BATSMAN] is dismissed, caught by [BOWLER] off a bad shot. [BOWLER] has taken the wicket of [BATSMAN], a batsman. [BOWLER] has taken the wicket of [BATSMAN], a batsman, caught by [FIELDER]. [BOWLER] has taken the wicket of [BATSMAN], caught by [FIELDER] off a bad shot. [BOWLER] has taken the wicket of [BATSMAN], caught by [BATSMAN] off a bad shot. [BOWLER] has taken the wicket of [BATSMAN], caught by [BATSMAN] off a bad shot. [BOWLER] has taken the wicket of [BATSMAN], caught by [BATSMAN] off a bad shot",
+        "truth": "[BATSMAN] scores four runs as he hits the ball past a [FIELDER] at mid-off. [BOWLER] Stone starts his spell from the city end, and [BATSMAN] immediately cuts the ball for four."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_170",
+        "prediction": "[BATSMAN] has hit a six off [BOWLER]'s delivery, playing a shot straight down the ground. The ball has traveled to the boundary rope, resulting in four runs.",
+        "truth": "[BATSMAN] pulls the delivery to the leg side. A boundary is formed as he picks the gap. [BOWLER] is delivering the ball at a good pace. [BATSMAN] clips the ball straight to the [FIELDER]. The game is over."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_120",
+        "prediction": "[BATSMAN] reaches a half century, as he reaches 50 runs.",
+        "truth": "[BATSMAN] has made a quick escape from the rain, taking advantage of the opportunity to score a boundary at point. This shot has earned him four runs and has also brought him to 103, a milestone in his 20th first-class match."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_166",
+        "prediction": "[BOWLER] delivers the ball down the leg side, and [BATSMAN] clips it through mid-wicket. The shot is well executed, and the batsman manages to score four runs.",
+        "truth": "[BATSMAN] plays a defensive shot through the leg side, timing it well, as the ball races away to the ropes for four."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_128",
+        "prediction": "[BATSMAN] plays a shot on the side, hitting the ball through the mid-on region for a four.",
+        "truth": "[BATSMAN] plays a powerful shot towards the leg side, resulting in a four. Montgomery is unable to react in time to make a catch."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_71",
+        "prediction": "[BATSMAN] scores 79 runs. This is the highest score for [BATSMAN] this season.",
+        "truth": "[BATSMAN] hits a six, the ball sailing into the stands."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_129",
+        "prediction": "[BATSMAN] plays a beautiful shot, sending the ball deep into the stands.",
+        "truth": "[BATSMAN] plays a shot slightly too straight, but manages to get it away with a flick. The ball is heading towards the fine leg boundary."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_161",
+        "prediction": "[BATSMAN] plays a shot, hitting the ball straight down the ground for four runs.",
+        "truth": "[BATSMAN] plays a beautiful shot through the offside, earning four runs. The [BOWLER] is unable to stop it."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_78",
+        "prediction": "[BATSMAN] has reached his first century, scoring 100 off 190 deliveries.",
+        "truth": "[NORTH EAST] with 301, [BATSMAN] opposite him has achieved 105."
+    },
+    {
+        "vid_id": "CricketVideo3_part4_scene_1",
+        "prediction": "[BATSMAN] plays a defensive shot, edging the ball. The [FIELDER] collects it and returns it to the wicket-keeper, who then throws it to the [FIELDER] at fine leg.",
+        "truth": "[BATSMAN] plays a drive, pushing off the back foot, and timing it beautifully to score a run with a punch through the offside, reaching the boundary."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_19",
+        "prediction": "[BATSMAN] drives it away beautifully, a well-timed shot that results in four runs.",
+        "truth": "[BATSMAN] has taken advantage of the loose delivery from [BOWLER], smashing the ball straight down the ground for a boundary."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_58",
+        "prediction": "[BATSMAN] has been dismissed, bowled by [BOWLER].",
+        "truth": "[KENT] is performing well in this match."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_169",
+        "prediction": "[BATSMAN] scores runs. A well-timed shot by [BOWLER]. The delivery was full and wide outside the off stump, allowing [FIELDER] to collect the ball and return it to the wicketkeeper.",
+        "truth": "The [BATSMAN] plays a good shot. The ball goes over mid wicket for four runs."
+    },
+    {
+        "vid_id": "CricketVideo2_part2_scene_2_part2_part1",
+        "prediction": "[BATSMAN] is dismissed. [BOWLER] delivers a well-paced ball, which [BATSMAN] fails to play.",
+        "truth": "No commentary or relevant text provided."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_42",
+        "prediction": "[BATSMAN] has been dismissed, caught by [UMPIRE]. The umpires have reached a decision. [BATSMAN] has been given out. This has come at a crucial time for [UMPIRE]'s team, as they were 1.",
+        "truth": "[BATSMAN] is dismissed, edging onto his pad off [BOWLER]'s delivery. [FIELDER] takes a simple catch. [BOWLER] comes in and bowls his first delivery, [BATSMAN] attempts a reverse sweep, but [FIELDER] takes a catch on the leg side. Another wicket falls, [BATSMAN] is out."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_52",
+        "prediction": "[BATSMAN] reaches his half-century, scoring 50 runs off 100 balls.",
+        "truth": "\"[BATSMAN] appears to be experiencing some frustration and has walked back to the pavilion.\""
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_43",
+        "prediction": "[BATSMAN] plays a shot on the back foot, hitting the ball straight, resulting in four runs.",
+        "truth": "[BOWLER] delivers a short-arm jab down the leg side. The ball travels towards the boundary near the [VENUE]'s refreshment area."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_115",
+        "prediction": "[BATSMAN] plays a shot from the middle of the bat, hitting the ball straight down the pitch. The ball travels to the boundary, resulting in four runs for the Ashes.",
+        "truth": "It appears there's no commentary provided."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_25",
+        "prediction": "The [BATSMAN] has just played a shot on the leg side, running the ball down towards the fine leg region. It was a well-timed stroke, showing good footwork and timing.",
+        "truth": "[BATSMAN] is playing a good innings. He scored before that opportunity arose. A shot off the pad has gone to third man for four runs."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_70",
+        "prediction": "[BATSMAN] plays a beautiful shot, hitting the ball straight back down the ground for four runs.",
+        "truth": "[BATSMAN] has smashed the [BOWLER]'s full toss through the leg side for a boundary."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_54",
+        "prediction": "[BATSMAN] plays a defensive shot, using his reach and timing to good effect, as the ball is sent over the boundary for a six.",
+        "truth": "Commentary: [BATSMAN] hits it high into the air, and it's a six over the rope."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_67",
+        "prediction": "[BATSMAN] plays a beautiful shot, sending the ball through the square region, with the umpires in agreement.",
+        "truth": "[BATSMAN] starts with a defensive stroke, nudging the ball to the vacant third area for a boundary, the second of the inning."
+    },
+    {
+        "vid_id": "CricketVideo3_part1_scene_7_part2_part2_part1",
+        "prediction": "[BATSMAN] scores a four off [BOWLER]'s delivery, hitting the ball through the off side region. This could prove crucial in the context of the match.",
+        "truth": "[BATSMAN] gets off the mark with a six, hitting a lofted shot high over the [FIELDER] at long on."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_46",
+        "prediction": "[BATSMAN] plays a good shot, scoring four runs, which takes him to his half century.",
+        "truth": "[BATSMAN] has taken advantage of a fuller delivery outside off stump, hitting it for a four. This is the second four in succession for him."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_30",
+        "prediction": "[BATSMAN] has played a defensive shot, sending the ball to the leg side boundary. This is the second six he has hit in the over, marking a strong start to his innings.",
+        "truth": "A beautiful shot, the [BATSMAN] has played it well. The [BOWLER] was unable to stop it, and the ball hit the [FIELDER] on the leg, resulting in a boundary."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_90",
+        "prediction": "[BATSMAN] has played a shot in the air to mid on.",
+        "truth": "[BATSMAN] scores 56 runs."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_90",
+        "prediction": "[BATSMAN] drives it through the covers for a boundary, scoring four runs.",
+        "truth": "[BATSMAN] gets off the mark with a beautiful shot, gliding the ball through the onside for a delightful bounce."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_27",
+        "prediction": "[BATSMAN] drives a shot through the off side for a four.",
+        "truth": "[BATSMAN] drives the leg spin delivery straight, scoring four runs."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_141",
+        "prediction": "[BATSMAN] is dismissed, a smart piece of bowling from [BOWLER], and [BATSMAN] goes on his way.",
+        "truth": "[BATSMAN] is caught out, a well-taken catch by [FIELDER]. [BOWLER] has been rewarded for a good over, and [BATSMAN] departs for 40."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_176",
+        "prediction": "[BATSMAN] has played a shot through the gap between [FIELDER] at mid-wicket and [BATSMAN] at cover.",
+        "truth": "[BATSMAN] takes a run, [BOWLER] delivers a short ball around the corner, which is well-pulled by [BATSMAN]."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_34",
+        "prediction": "[BATSMAN] edges [BOWLER] to [FIELDER], who takes a sharp catch. The [BATSMAN] is dismissed for 51, and Essex loses its first wicket.",
+        "truth": "[BATSMAN] plays a defensive shot, but the umpire's not convinced, and [BATSMAN] decides to review."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_103",
+        "prediction": "[BATSMAN] slots the ball through the covers, resulting in four runs.",
+        "truth": "[BATSMAN] hits a boundary through the cover region, scoring 4 runs. The shot was well-executed. [BOWLER] was unable to respond quickly enough to the delivery."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_11",
+        "prediction": "[BATSMAN] has scored 4 runs with a shot to the leg side, with the ball being played away from the fielders.",
+        "truth": "Commentary: A well-played cut shot from [BATSMAN] off the back foot, scoring 60. The [BOWLER] may not be finding the right line and length."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_54",
+        "prediction": "[BATSMAN] drives the delivery from [BOWLER] through the covers. The ball races to the boundary, resulting in four runs.",
+        "truth": "[BATSMAN] gets off the mark with a couple of boundaries. A short, wide delivery was uppercut for four, while a full ball was clipped through midwicket for another four. Not a good start for [BOWLER]."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_36",
+        "prediction": "[BATSMAN] plays a shot away from the cricket ground. The ball travels down the ground, reaching the boundary.",
+        "truth": "[BATSMAN] has hit a six. The [BOWLER] delivers a short ball, which is dispatched over mid on."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_22",
+        "prediction": "The [BOWLER] delivers the next ball straight down the ground, and it was hit powerfully by [BATSMAN], who scored four runs.",
+        "truth": "[BATSMAN] drives [BOWLER] and plays a pleasant shot, timing it well, but the ball runs away quickly, crossing the [VENUE] boundary."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_62",
+        "prediction": "[BATSMAN] falls. [BOWLER] serves full and straight, and [BATSMAN] edges the ball to [FIELDER] at second slip, who takes the catch.",
+        "truth": "[BATSMAN] dismissed for 28. The umpire raises his finger. [BATSMAN] celebrates with a punch of the air. This is the sixth wicket to fall for Sussex."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_14",
+        "prediction": "[BATSMAN] plays a shot on the leg side, getting a bit of turn from the [BOWLER]. The ball runs away to the fine leg region, resulting in four runs.",
+        "truth": "[BATSMAN] plays a powerful stroke, pushing the ball wide, allowing the [FIELDER] in the third slip to retrieve it, resulting in four runs."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_75",
+        "prediction": "[BATSMAN] achieves a milestone, reaching a century mark while playing for [TEAM 1] against [TEAM 2] at [STADIUM]. He has scored 100 runs, surpassing the previous highest score by [PLAYER 1] while playing for the same team.",
+        "truth": "[BATSMAN] has reached a milestone, scoring 300 runs. A shot has been hit past [FIELDER] at mid-off, and the helmet has been removed. [BATSMAN] has been awarded a triple."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_96",
+        "prediction": "[BATSMAN] drives the ball down the ground, and it goes for four runs.",
+        "truth": "[BATSMAN] drives the ball beautifully, scoring four to five fours in this innings, and [BOWLER]'s delivery is a full-length one with no movement."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_206",
+        "prediction": "The delivery was heading down the leg side.",
+        "truth": "A short-pitched delivery in the over."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_119",
+        "prediction": "[BATSMAN] plays a beautiful shot. The ball touches the rope at four runs.",
+        "truth": "[BATSMAN] hits a six over the mid-wicket region, bringing up his first boundary. [BATSMAN] is now at risk of being caught out after a slight lapse in concentration."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_136",
+        "prediction": "[BATSMAN] plays a shot down the ground, driving the ball straight to [BOWLER] who takes the catch.",
+        "truth": "[FIELDER] takes the catch at long on."
+    },
+    {
+        "vid_id": "CricketVideo3_part4_scene_13",
+        "prediction": "[BATSMAN] plays a loose shot, attempting to hit the delivery from [BOWLER], but misses it completely, with the ball going through him to the fine leg region for four runs.",
+        "truth": "[BATSMAN] plays a slog sweep off [BOWLER]'s delivery, hitting it over the wicket for a four."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_75",
+        "prediction": "[BATSMAN] plays a drive through the covers, and the ball runs away for four runs.",
+        "truth": "Middlesex has started their innings. They may also lose a wicket with the next ball. And they do."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_86",
+        "prediction": "The delivery was short and wide.",
+        "truth": "The ball does not travel far, remaining close to the batsman."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_135",
+        "prediction": "[BATSMAN] uses his feet to generate power, driving [BOWLER]'s delivery to the offside. The ball travels straight to the boundary, with [FIELDER] not able to cut off the four.",
+        "truth": "[BATSMAN] plays a shot, attempting a flick down the leg side. The ball deviates slightly. The umpire signals a wide."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_149",
+        "prediction": "[BATSMAN] gets off to a good start, scoring four runs with a well-timed drive.",
+        "truth": "[BATSMAN] has edged through for another run, with the crowd acknowledging [BATSMAN]'s half-century."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_169",
+        "prediction": "[BATSMAN] scores a single off [BOWLER]'s delivery, scoring 100 runs.",
+        "truth": "[BATSMAN] has been dismissed. It was a deliberate shot played with finesse."
+    },
+    {
+        "vid_id": "CricketVideo3_part5_scene_4",
+        "prediction": "[BATSMAN] plays a shot and [BATSMAN] tries to run a quick single but is sent back by the [FIELDER]. [BATSMAN] attempts to steal a run but is sent back by the [FIELDER]. [BATSMAN] attempts to run a second run but is sent back by the [FIELDER]. [BATSMAN] attempts to steal a run but is sent back by the 2nd 2nd 2nd 2nd 2nd 2nd 2nd 2nd 2nd 2nd 2nd 2nd 2nd 2nd 2nd 2nd 2nd 2nd 2nd",
+        "truth": "[BATSMAN] winces in pain after being struck on the shoulders, a ball from [BOWLER] glances off the bat and soars towards third man, eventually crossing the boundary. [BATSMAN] is down on the ground. Meanwhile, [BATSMAN] also reaches his half-century with a single off a [BOWLER] delivery, which he guides down to fine leg."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_159",
+        "prediction": "[BATSMAN] takes on the drive, hitting the ball to the boundary for four runs. This is his fifth boundary.",
+        "truth": "[BATSMAN] has scored a boundary off a shot to the off side, with the ball sailing over point, resulting in four runs and [BATSMAN] reaching double figures."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_58",
+        "prediction": "[BATSMAN] plays a shot through the off side, scoring four runs.",
+        "truth": "A well-played drive, [BATSMAN] guides the ball behind square."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_148",
+        "prediction": "[BATSMAN] plays a shot on the offside, scoring four runs.",
+        "truth": "[BATSMAN] pushes into the off side, looking for a scoring opportunity."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_89",
+        "prediction": "[BATSMAN] scores 60 and 61 not out at the end of the over.",
+        "truth": "[BATSMAN] plays a defensive shot to the leg side, but [BOWLER]'s delivery was slightly awkward, allowing the ball to run to backward point for a four."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_12",
+        "prediction": "[BATSMAN] plays a shot over the boundary, resulting in four runs. The ball was delivered by [FIELDER], but [BATSMAN] manages to edge it to third man, resulting in four runs.",
+        "truth": "\" [BATSMAN] gets a scoring chance with a short-pitched delivery, which is wide and easy to play.\""
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_75",
+        "prediction": "[BATSMAN] drives a delivery through the off side for a boundary.",
+        "truth": "[TEAM] have scored 164 for seven wickets. [BOWLER] comes in, but [BATSMAN] hits a boundary off the first delivery, scoring four runs."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_96",
+        "prediction": "[BATSMAN] is dismissed, caught behind. [FIELDER] makes a good catch. The ball was driven, and [BOWLER] took the catch.",
+        "truth": "[BATSMAN] has been dismissed for 44. [BOWLER] has delivered a ball that has resulted in his wicket."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_47",
+        "prediction": "[BATSMAN] scores a four by hitting the ball through the off side, playing it wide of the fielder at point.",
+        "truth": "[FIELDER] takes a catch low down, a quality catch off [BATSMAN]'s edge."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_99",
+        "prediction": "[BATSMAN] plays a big shot, hitting the ball hard and low towards the square region, resulting in four runs.",
+        "truth": "[BATSMAN] takes the risk and scores a boundary, hitting the ball over deep mid-wicket for four runs."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_66",
+        "prediction": "The [BATSMAN] hits a six over the midwicket region, a well-timed shot.",
+        "truth": "[BATSMAN] plays a shot and the ball goes over the inner ring, heading towards a wide."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_86",
+        "prediction": "[BATSMAN] played a powerful shot, rocking onto the back foot, before swatting [BOWLER]'s delivery over the leg side boundaries.",
+        "truth": "[BATSMAN] attempts to defend against [BOWLER]'s delivery, but it's a difficult shot and the ball sails over the ropes for four runs. [BOWLER] has added another four to their tally."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_72",
+        "prediction": "[BATSMAN] plays a shot down the ground, scoring four runs.",
+        "truth": "[BATSMAN] clears the ropes with a good shot, displaying his skills, but requiring some effort."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_54",
+        "prediction": "[BATSMAN] to play a shot on the front side, a cut, and [BATSMAN] to score 25 runs. [BATSMAN] to play a shot on the backside, a cut, and [BATSMAN] to score 26 runs. [BATSMAN] to play a shot on the front side, a cut, and 0 to score 27 runs. [BATSMAN] to play a shot on the backside, a cut, and 0 to score 28 runs. 0 to play a shot on the front side, a cut, and 0 to score 29 runs. 0 to play a shot on the backside, a cut",
+        "truth": "[BOWLER] delivers a right-arm over to [BATSMAN]. The ball goes down the leg side, resulting in a four to fine leg for [BATSMAN]."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_75",
+        "prediction": "[BATSMAN] has hit the ball with some power, but [BOWLER] has done well to prevent it from reaching the boundary. [BATSMAN] will take a run, although it's not clear whether the ball will carry to the boundary.",
+        "truth": "[BATSMAN] has reached his century with a reverse paddle sweep. His innings has been marked by serene progress, making it almost inevitable that he would achieve this milestone."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_124",
+        "prediction": "[BATSMAN] plays a shot on the back foot, pushing forward, and the ball is driven through mid-on for four runs.",
+        "truth": "[BATSMAN] plays a powerful stroke, hitting the ball through the covers for four runs."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_157",
+        "prediction": "[BATSMAN] is dismissed for 53, caught at leg gully off [BOWLER]'s off spin.",
+        "truth": "[BATSMAN] departed for 20, caught off a hard shot outside the off stump, with [FIELDER] Cook making a good tumbling stop. The score has passed 500, with the team now trailing by 100."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_10",
+        "prediction": "[BATSMAN] has played a defensive shot, guiding the [BOWLER]'s delivery down the ground. The [BATSMAN] has managed to survive the over, but it's likely to be the last one before lunch.",
+        "truth": "[BATSMAN] hits the ball through the mid-wicket region, narrowly avoiding a leading edge."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_126",
+        "prediction": "[BATSMAN] has hit a powerful shot, carrying the [BOWLER]'s delivery well over the boundary for four runs. This [BATSMAN] has been in fine form, scoring 20 runs off [BATSMAN]'s most recent over.",
+        "truth": "[BATSMAN] tucks his front knee up and flicks the short ball towards square leg, resulting in a single."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_101",
+        "prediction": "[BATSMAN] plays a beautiful drive, scoring four runs.",
+        "truth": "[BATSMAN] pushes the ball through the covers for a boundary. [BOWLER] concedes another run, having overstepped the mark."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_31",
+        "prediction": "[BOWLER] concedes a boundary to [BATSMAN], who hits the ball straight down the ground.",
+        "truth": "[BATSMAN] plays a shot through the offside, and [BATSMAN] runs down the slope to the right of the wicket. [BATSMAN] executes a deft flick off his pads, resulting in four runs."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_180",
+        "prediction": "[BATSMAN] edges [BOWLER]. He's caught behind off a shot to the leg side. [FIELDER] [FIELDER] steps in to take the catch.",
+        "truth": "[BOWLER] delivers a full toss which is hit out, resulting in [BATSMAN] David Lloyd being dismissed, losing his off stump. This is a pivotal moment, with [BATSMAN] Curry claiming his third wicket. Derbyshire's score is now 17."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_26",
+        "prediction": "[BATSMAN] plays a good drive, the first time he has got to the pitch in this over. [BOWLER]'s first delivery was wide, but [BOWLER] has come back well and put it in a good area.",
+        "truth": "[BATSMAN] drives a straight delivery from [BOWLER], the ball passes [FIELDER] Hassan Ali, who attempts a diving catch."
+    },
+    {
+        "vid_id": "CricketVideo3_part3_scene_13",
+        "prediction": "[BATSMAN] drives [BOWLER] [BOWLER] around his off stump, but it goes high in the air and is caught by [BATSMAN] at [BATSMAN]'s end.",
+        "truth": "[BATSMAN] pushes the single and comes ever soon and it's a straighter ball and it's played back down the ground to long on by [BATSMAN] and that brings up his double century here at [VENUE]."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_21",
+        "prediction": "The batsman has played a good shot, scoring four runs.",
+        "truth": "[BATSMAN] edged one to [FIELDER] off [BOWLER]'s delivery. The [BOWLER] opted for the short ball outside the [BATSMAN]'s off stump, but the [BATSMAN] failed to time it properly."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_5",
+        "prediction": "[BATSMAN] plays a beautiful shot, hitting the ball through the leg side for four runs.",
+        "truth": "[BATSMAN] plays a delicate flick through mid-wicket."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_113",
+        "prediction": "[BATSMAN] plays a beautiful shot, pitching full and straight, and [BATSMAN] manages to edge the ball to [BOWLER] who fails to hold onto the catch. The umpire disallows the appeal, allowing [BATSMAN] to retain his wicket.",
+        "truth": "[BATSMAN] plays a defensive shot, cutting the delivery through point. He runs two. The [BATSMAN] will not attempt to score a third run. He will push for a third run. The [BATSMAN] is running. A diving effort from [FIELDER] saves the run. The batsman is short of his ground."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_153",
+        "prediction": "[BATSMAN] plays a square drive, hitting the ball to the [BATSMAN] side of the ground. The delivery from [BOWLER] is short of length.",
+        "truth": "\"[BATSMAN] reaches a half century from 43 deliveries. The partnership is still going strong.\""
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_39",
+        "prediction": "[BATSMAN] drives [BOWLER]'s delivery straight to [FIELDER] at third man for four runs.",
+        "truth": "[BATSMAN] scores four runs, which won't help the opposition's chances. A boundary is hit to the third man position."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_159",
+        "prediction": "[BATSMAN] drives [BOWLER]'s delivery through the covers for four.",
+        "truth": "[BATSMAN] plays a shot with a change of angle around the wicket. He plays it off the back foot, punching the ball exquisitely in the arc."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_103",
+        "prediction": "[BOWLER] delivers from wide on the leg side, the ball goes through the hands of [BATSMAN], but he manages to reach it first.",
+        "truth": "[BATSMAN] plays a defensive shot, shuffling down the pitch, and guides the ball into the leg side, a mix of a drive and a pull."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_70",
+        "prediction": "[BATSMAN] is chasing 100 runs. He has scored four runs, bringing the total to 99.",
+        "truth": "[BATSMAN] hits a six, his second of the innings, and moves to 276."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_19",
+        "prediction": "[BATSMAN] drives a ball from [BOWLER], who has overstepped, resulting in four runs. The second delivery of the over has been awarded as a no ball.",
+        "truth": "[BATSMAN] edges it to the [FIELDER] on the edge, but [BOWLER] looks to be gaining his rhythm after a slow start."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_177",
+        "prediction": "[BATSMAN] plays a shot well, hitting the ball hard through the off side. This is the first boundary of the day, bringing up [BATSMAN]'s 50.",
+        "truth": "[BATSMAN] has left it alone, a wise decision considering the available space."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_109",
+        "prediction": "[BATSMAN] scores a boundary with a good shot. [BATSMAN] follows it with another good shot, scoring four runs.",
+        "truth": "The [BATSMAN] had a fortunate reprieve after edging a short-pitched delivery from [BOWLER], with the fielder at short leg making a sharp recovery to prevent a run."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_108",
+        "prediction": "[BATSMAN] plays a shot over the pitch, reaching the runs required for six.",
+        "truth": "Commentary: The batsman was given out leg gully."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_64",
+        "prediction": "[BATSMAN] plays a shot with an outside edge, and [FIELDER] takes the catch.",
+        "truth": "[BATSMAN] takes on the challenge, playing a shot down the pitch towards mid-on. With the team's score at 44 for 7, he looks to add some runs."
+    },
+    {
+        "vid_id": "CricketVideo_part2_scene_26",
+        "prediction": "[BATSMAN] drives the ball through the covers, scoring four runs.",
+        "truth": "[BATSMAN] plays a flowing square drive."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_80",
+        "prediction": "[BATSMAN] plays a good shot, scoring four runs. He is currently positioned at 50 points.",
+        "truth": "The [BATSMAN] hits a six, the ball travels all the way to the boundary, awarding 6 runs."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_101",
+        "prediction": "[BATSMAN] continues from where he left off. He plays a shot at the first ball, which is wide. The [BOWLER] delivers a delivery that is too close to the stumps, but [BATSMAN] manages to edge it. The ball bounces once and reaches the boundary, resulting in four runs.",
+        "truth": "[BATSMAN] plays a shot to the covers, scoring a four. The delivery was slightly short and wide, and [BATSMAN] took advantage of the opportunity, edging the ball through the covers with precision."
+    },
+    {
+        "vid_id": "CricketVideo2_part2_scene_12",
+        "prediction": "[BATSMAN] has hit a boundary, scoring four runs.",
+        "truth": "\"Four runs scored.\""
+    },
+    {
+        "vid_id": "CricketVideo3_part4_scene_22",
+        "prediction": "[BATSMAN] plays a big shot, hitting the ball over the boundary for six.",
+        "truth": "[BATSMAN] has played a good shot, hitting a low full toss for four."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_15",
+        "prediction": "[BATSMAN] drives high and hard, scoring four runs. The delivery was short and wide, resulting in four byes.",
+        "truth": "[BATSMAN] has hit a boundary with a full delivery, scoring four runs. The shot was well-timed, but the ball carried over the boundary."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_56",
+        "prediction": "[BATSMAN] scores a four. The over has been a good one for [BATSMAN], who has scored 13 runs.",
+        "truth": "Run taken. [BATSMAN] is awarded a single."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_129",
+        "prediction": "[BATSMAN] plays a shot straight down the ground, a beautiful stroke.",
+        "truth": "The [BATSMAN] has been swept towards the short boundary, resulting in a four."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_119",
+        "prediction": "[BATSMAN] reaches 25 runs at the halfway stage.",
+        "truth": "Neither [BATSMAN] nor [BOWLER] could have reached that, leaving it to each other."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_157",
+        "prediction": "[BATSMAN] takes on [BOWLER]'s delivery, but [BATSMAN] manages to hit it straight down the ground, resulting in a boundary.",
+        "truth": "[BOWLER] delivers the ball, which is partially airborne and reaches [BATSMAN], who scores a run."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_106",
+        "prediction": "A well timed shot, the ball has been hit straight down the ground, the batsman has scored a four.",
+        "truth": "The batsman is likely to capitalize on the loose delivery, which is pitched short and wide outside the off stump."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_4",
+        "prediction": "[BATSMAN] is dismissed, caught by [BOWLER]. [BOWLER] bowled him, and [BOWLER] takes another wicket.",
+        "truth": "[BOWLER] delivers the next ball, and [BATSMAN] attempts a drive, but it's a high catch taken by [FIELDER] at the covers, and the batsman is dismissed for 16."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_118",
+        "prediction": "[BATSMAN] plays a beautiful shot over midwicket, a stroke of high quality, as the ball races away for four. This has been a productive over for [BATSMAN], with five runs scored.",
+        "truth": "[BOWLER] enters the attack. The [BATSMAN] and [WICKET-Keeper] have a conversation, with the [BATSMAN] looking uncertain."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_110",
+        "prediction": "[BATSMAN] plays a good shot, punching the ball away with a push.",
+        "truth": "[BATSMAN]'s shot was a full toss, which sailed to the offside. It was a well-directed delivery."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_146",
+        "prediction": "The delivery was heading down the leg side.",
+        "truth": "No commentary to standardize."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_26",
+        "prediction": "[BATSMAN] drives the delivery, with the ball carrying through to [FIELDER] at third man.",
+        "truth": "[BATSMAN] plays a late shot, but the ball is still beaten, allowing a single through mid-wicket."
+    },
+    {
+        "vid_id": "CricketVideo3_part5_scene_3",
+        "prediction": "[BATSMAN] plays a shot down the ground to the leg side, and it crosses the boundary for four runs. The ball was hit straight down the ground, and [BATSMAN] has scored four runs.",
+        "truth": "[BATSMAN] plays a nice shot through the offside, scoring four runs. [BOWLER] Jamie Porter is unable to stop the ball, allowing the team to reach 297-4."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_23",
+        "prediction": "[BATSMAN] drives it through the infield, and the ball travels all the way to the boundary. A four.",
+        "truth": "[BATSMAN] scores a boundary as he hits the delivery from [BOWLER] off his legs, with the ball passing the [UMPIRE] and racing to the boundary for four runs."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_108",
+        "prediction": "[BATSMAN] is dismissed, caught by [FIELDER] at second slip. The delivery from [BOWLER] was a good length, but [BATSMAN] failed to score of it.",
+        "truth": "[BATSMAN] plays a pacey shot towards the ropes, but [FIELDER] shows athletic approach and dives to catch the nicked shot. It's a wicket for Worcestershire."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_148",
+        "prediction": "[BATSMAN] drives the ball through the covers, and it runs to the boundary, resulting in four runs.",
+        "truth": "The batsman has hit a full delivery off the legs, and it has sailed over the boundary, resulting in a four."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_214",
+        "prediction": "[BATSMAN] drives it beautifully to the boundary, scoring four runs. The shot was played with a horizontal bat.",
+        "truth": "[BATSMAN] hits a boundary through the midwicket for four runs. The current score is [BATSMAN]'s 35. [BOWLER] concedes two runs."
+    },
+    {
+        "vid_id": "CricketVideo14_video_segment_48",
+        "prediction": "The [BATSMAN] plays a defensive shot, and the ball is hit straight down the ground, with [BATSMAN] running to the other end.",
+        "truth": "[BATSMAN] edges the ball, and it goes through to the field. This is the second such instance, where the ball has been guided off the outside edge of the bat and has reached the boundary at third man for four runs."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_48",
+        "prediction": "[BATSMAN] scores four runs with a well-played shot.",
+        "truth": "[FIELDER] settles the ball at the boundary, completing a catch."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_122",
+        "prediction": "[BATSMAN] edges him away. [BATSMAN] attempts a slash, but it's not enough to clear the offside.",
+        "truth": "The ball is driven in the air, but it sails between extra cover and mid-off. Initially, it seemed like it would be caught by [FIELDER]."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_155",
+        "prediction": "[BATSMAN] plays a powerful shot, sending the ball sailing over the boundary for four runs.",
+        "truth": "The batsman has played a slog sweep, scoring four runs, and the fielder was unable to cover the shot."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_122",
+        "prediction": "[BATSMAN] plays a good shot, hitting the ball between mid-on and midwicket. He scores double figures, reaching 100.",
+        "truth": "[BATSMAN] has hit a shot, with the ball flying over the keeper's head and reaching the boundary, resulting in four runs."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_13",
+        "prediction": "[BATSMAN] is out, LBW has been given. The umpire has raised his finger, and [UMPIRE] has confirmed the decision.",
+        "truth": "[BATSMAN] is out LBW to [BOWLER]. The decision is confirmed by [UMPIRE]."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_163",
+        "prediction": "[BATSMAN] drives firmly, but the ball is too wide for [FIELDER] to reach, and it goes all the way to the boundary.",
+        "truth": "[BATSMAN] pushes the [BOWLER] back with a fuller delivery and drives it down the ground for two runs, taking [BATSMAN]'s score to 11."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_79",
+        "prediction": "[BATSMAN] scores a single, but it could have been a boundary.",
+        "truth": "[BATSMAN] has reached 305 runs."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_147",
+        "prediction": "[BATSMAN] dismissed, [BOWLER] takes a wicket, dislodging the batter.",
+        "truth": "[BATSMAN] edges the delivery from [BOWLER] and is caught by [FIELDER] behind the wickets, a significant breakthrough for [TEAM NAME] at [VENUE]."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_106",
+        "prediction": "[BATSMAN] plays a beautiful shot, hitting the ball hard through the off side for four runs.",
+        "truth": "[BATSMAN] starts to lose his concentration as [BOWLER] offers width, playing a lovely back foot drive through cover."
+    },
+    {
+        "vid_id": "CricketVideo16_video_segment_95",
+        "prediction": "The [BATSMAN] has played a shot through the off side.",
+        "truth": "[BATSMAN] has hit the ball through the backward point region."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_45",
+        "prediction": "[BATSMAN] plays a big shot. He hits the ball over the boundary for four. This over has been productive for [BATSMAN], who has scored three boundaries so far.",
+        "truth": "[BATSMAN] plays a cautious shot, and the ball goes through the covers for a boundary."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_79",
+        "prediction": "[BATSMAN] is playing a shot straight to the boundary.",
+        "truth": "[BOWLER] delivers a Yorker, [BATSMAN] crashes it away, [BATSMAN] dismissed for four runs."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_123",
+        "prediction": "[BATSMAN] is dismissed, [BOWLER] applies for a leg slip fielder. The ball is caught by [FIELDER], who is standing in the gap.",
+        "truth": "[BATSMAN] edges the [BOWLER]'s delivery, and [FIELDER] at mid-wicket takes a catch. The ball seemed to stop briefly, but [BATSMAN] is out. He often scores well against [BOWLER] by cutting him through the leg side."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_87",
+        "prediction": "[BATSMAN] has played a shot through the wind, but it's not quite as crisp as he'd have liked.",
+        "truth": "[BATSMAN] makes a desperate attempt at cover, collecting his [NUMBER] of singles for the match."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_165",
+        "prediction": "[BATSMAN] drives the ball through the offside.",
+        "truth": "[BATSMAN] attempts a reverse sweep, with [BATSMAN] succeeding in beating [FIELDER] at point. The ball kissed the back of the [FIELDER]'s hands."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_119",
+        "prediction": "[BATSMAN] steps down. The [BATSMAN] has been dismissed. A fine catch is taken by [FIELDER] at second slip.",
+        "truth": "[BATSMAN] has been given leg before wicket. The umpire's decision was not in dispute."
+    },
+    {
+        "vid_id": "CricketVideo8_video_segment_34",
+        "prediction": "The delivery was too straight and of a good length.",
+        "truth": "The match is going into extra time."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_137",
+        "prediction": "The [BATSMAN] has been beaten by the delivery, but he has managed to put it away to the boundary.",
+        "truth": "[BATSMAN] has perished for a duck, dismissed for a score of four."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_15",
+        "prediction": "[BATSMAN] is batting well, finding a niche in the pitch where the ball is holding on the pitch, allowing him to score regularly. However, the [FIELDER] tends to favour one side of the court, which could potentially become a weakness in his game.",
+        "truth": "[FIELDER] at the boundary ropes takes a catch, but the umpire signals a four as the ball has cleared the boundary."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_119",
+        "prediction": "[BATSMAN] has played a good shot, hitting the ball straight down the ground for four runs. He has scored 51 runs from 96 balls, with five boundaries and two sixes.",
+        "truth": "[BATSMAN] edges one to [FIELDER]. The [BATSMAN] departs. He had initially looked fluent, having scored a 200 in the previous match."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_142",
+        "prediction": "[BATSMAN] plays a shot well, timing the delivery well to the leg side.",
+        "truth": "[BATSMAN] has placed that shot beautifully, [BOWLER]. There isn't much room to maneuver with two fielders set back to the short boundary, but he has bisected them."
+    },
+    {
+        "vid_id": "CricketVideo18_video_segment_179",
+        "prediction": "[BATSMAN] has played a defensive shot down the ground, scoring four runs. The ball was hit towards the leg side.",
+        "truth": "[BOWLER] delivers a delivery from the [PAVILION END]. [BATSMAN] attempts a shot, but fails to connect, and the [BOWLER] takes advantage, dismissing [BATSMAN] for a duck."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_67",
+        "prediction": "[BATSMAN] drives [BOWLER]'s delivery through the gap between [FIELDER] at slip and mid-wicket. The ball is running away from the fielders.",
+        "truth": "[BATSMAN] has been dismissed for four, edging the ball to gully. The ball took a thick edge before flying away to the back of the field."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_111",
+        "prediction": "[BATSMAN] is playing a good shot, hitting it to the boundary for four runs, moving quickly to the pitch.",
+        "truth": "[BATSMAN] plays a strong shot, clearing the man with a bit of a top edge, securing a second maximum."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_181",
+        "prediction": "[BATSMAN] drives well, but misses out on scoring more runs. The ball was well placed, but [BOWLER] was unable to hold onto it.",
+        "truth": "[FIELDER] takes a catch at the boundary, but [BATSMAN] has timed it well, and it's a big hit. [BATSMAN] scores a six."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_4",
+        "prediction": "[BATSMAN] scores a run with a well-timed shot.",
+        "truth": "The [BATSMAN] has played a well-timed shot, finding a gap between extra cover and mid-off."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_73",
+        "prediction": "[BATSMAN] plays a beautiful shot through the covers, and the ball races away for four runs.",
+        "truth": "[BATSMAN] drives a straight drive for four runs, with [BOWLER] unable to hold onto the ball."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_147",
+        "prediction": "[BATSMAN] comes down the pitch and hits the ball. It's a four. [BATSMAN] takes on the bowler. The runs are boundary to boundary.",
+        "truth": "[BATSMAN] scores 3 runs. [BATSMAN] hits a full-length delivery from [BOWLER] through the offside for a boundary."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_5",
+        "prediction": "[BATSMAN] drives it through the off side, and the ball races away to the boundary.",
+        "truth": "[BATSMAN] drives and scores four runs. He initially shows intent to run but only covers a few strides out of his crease, as the drive was slightly short."
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_72",
+        "prediction": "[BATSMAN] has played a sweep shot towards the boundary, with the ball being carried by [BOWLER] to the ropes at mid-wicket. The over has been a costly one for [BOWLER].",
+        "truth": "[BATSMAN] plays a square drive off [BOWLER], the ball reaching the boundary."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_107",
+        "prediction": "[BATSMAN] drives it down the ground, and the ball runs away for four runs. The [BATSMAN] has made a good connection with the shot.",
+        "truth": "[BATSMAN] cuts the ball through the off-side, a single is signaled and he reaches his half-century."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_8",
+        "prediction": "[BATSMAN] drives [BOWLER]'s delivery down the ground for a well-taken four.",
+        "truth": "[BATSMAN] reaches 28 with a nice drive, playing a shot off the overpitched delivery from [BOWLER]."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_59",
+        "prediction": "[BATSMAN] reaches 50, it's his highest score this season.",
+        "truth": "[BATSMAN] pushes the delivery gently to deep cover, scoring two runs."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_5",
+        "prediction": "[BATSMAN] edges [BOWLER] to be caught behind, a wicket taken by [FIELDER] at second slip, a good piece of fielding.",
+        "truth": "[BATSMAN] edges and [BOWLER] has got a wicket. It's a first one in [VENUE] colours for [BOWLER]. A catch is taken by [FIELDER] at first slip."
+    },
+    {
+        "vid_id": "CricketVideo6_video_segment_56",
+        "prediction": "[BATSMAN] plays a shot to [BOWLER], the ball moving away from  and [BATSMAN] runs a quick single to the off side. The fielding team gives chase, but [BATSMAN] manages to reach the other end and take a run.",
+        "truth": "[BATSMAN] runs in round the wicket and hits the ball straight down the ground for a big six into the stands, timing it well despite his precarious batting stance. This is his second six of the over."
+    },
+    {
+        "vid_id": "CricketVideo3_part4_scene_9",
+        "prediction": "[BATSMAN] has hit a six through the leg side, running all the way to the boundary.",
+        "truth": "The [BATSMAN] moves down the track, hitting a shot over mid-off. The ball travels towards the boundary, but just clears it by a narrow margin. The [UMPIRE] signals a six."
+    },
+    {
+        "vid_id": "CricketVideo12_video_segment_88",
+        "prediction": "[BOWLER] to [BATSMAN] hitting the ball over the boundary for six runs.",
+        "truth": "[BATSMAN] plays a crisp punch off the back foot, moving to four."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_135",
+        "prediction": "[BATSMAN] has driven the ball, but it has been misfielded by [FIELDER], allowing it to go to the boundary for four runs.",
+        "truth": "[FIELDER] collects the ball at [VENUE], and [BATSMAN] takes a single down the ground. [BOWLER] delivers a full-length delivery."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_1",
+        "prediction": "[BATSMAN] plays a shot through the off side, placing it between mid-off and cover. The ball has been pushed down the ground, resulting in a single.",
+        "truth": "[BATSMAN] hits a boundary."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_113",
+        "prediction": "[BATSMAN] is dismissed, and [BOWLER] has taken his second wicket.",
+        "truth": "[BATSMAN] edges it and the ball is taken by [FIELDER] off a low catch to his right."
+    },
+    {
+        "vid_id": "CricketVideo3_part1_scene_9",
+        "prediction": "[BATSMAN] scores a four, hitting [BOWLER]'s delivery over the deep square region.",
+        "truth": "The batsman has hit a shot, and the ball has been played over the infield boundary, resulting in four runs."
+    },
+    {
+        "vid_id": "CricketVideo5_video_segment_113",
+        "prediction": "[BATSMAN] has hit a nice shot, playing a square drive. He'll be pleased with that delivery from [BOWLER], which was just outside off stump.",
+        "truth": "[BOWLER] delivers a short pitch, bowling to the leg side boundary, a shrewd decision. [BATSMAN] dispatches it easily, finding the mid-wicket region."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_97",
+        "prediction": "[BATSMAN] plays a defensive shot to mid-wicket, with a large gap in the field, and the ball is well taken by [FIELDER] in the deep.",
+        "truth": "[BATSMAN] is comfortable batting under [VENUE] conditions. However, [BATSMAN] will need to score four more runs to achieve the desired outcome."
+    },
+    {
+        "vid_id": "CricketVideo3_video_segment_14",
+        "prediction": "The [BATSMAN] plays a defensive shot, but the ball is too close to the wicket and [BATSMAN] fails to clear the boundary.",
+        "truth": "[BATSMAN] punches the ball up the ground, and it's a boundary through mid-off. The ball is racing down to the [VENUE] boundary, adding four runs to the total."
+    },
+    {
+        "vid_id": "CricketVideo1_video_segment_45",
+        "prediction": "[BATSMAN] scores a beautiful shot, hitting the ball well through the air.",
+        "truth": "[BATSMAN] has played a beautiful shot, scoring a boundary, with the ball going wide of mid-off."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_20",
+        "prediction": "The[BATSMAN] failed to control the delivery, which was slightly short-pitched.",
+        "truth": "[BATSMAN] plays it softly and runs it down through the vacant third man area."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_3",
+        "prediction": "The delivery is heading down the leg side.",
+        "truth": "The [BATSMAN] clips this off his pads."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_118",
+        "prediction": "[BATSMAN] scores a run, scoring 30 runs off 45 balls.",
+        "truth": "He is now 49 runs."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_125",
+        "prediction": "[BATSMAN] continues his fine form, hitting a shot straight down the ground. The ball travels to the boundary for four runs, and he reaches a score of 49.",
+        "truth": "[BATSMAN] reaches his half-century and Warwickshire earns a batting point, thereby avoiding the follow-on."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_164",
+        "prediction": "[BATSMAN] is out.",
+        "truth": "The [TEAM] declares its first innings at 10-5, with one wicket remaining, at [VENUE]."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_76",
+        "prediction": "The [BATSMAN] is struggling to score runs, having notched up just one run in the last over.",
+        "truth": "[BATSMAN] smashes the ball through the covers to score a boundary."
+    },
+    {
+        "vid_id": "CricketVideo17_video_segment_144",
+        "prediction": "The [BATSMAN] has hit a boundary with a well-timed shot.",
+        "truth": "[BATSMAN] plays a fine shot, getting a boundary."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_55",
+        "prediction": "[BATSMAN] scores another boundary, a well-timed shot. [BATSMAN] has scored 3 runs in that over, putting pressure back on the bowler.",
+        "truth": "[BATSMAN] punches the delivery from [BOWLER] away to the pavilion end for a boundary. The ball was pitched up, and [BATSMAN] plays a crisp shot to the square region."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_116",
+        "prediction": "[BATSMAN] scores a single, a short-pitched delivery from [BOWLER] is edged and goes through the gap between [FIELDER] and the wicket.",
+        "truth": "[BATSMAN] needs to cut that away; four more runs to [TEAM NAME]'s total but."
+    },
+    {
+        "vid_id": "CricketVideo2_video_segment_52",
+        "prediction": "[BATSMAN] edges the ball past second slip, and it races away for four. [BATSMAN] has scored his second century of the match.",
+        "truth": "[BATSMAN] backed away to [BOWLER]'s delivery from the Stuart Broad End, edged it outside the off stump and Calvin Harrison at first slip held onto a well-caught catch."
+    },
+    {
+        "vid_id": "CricketVideo10_video_segment_87",
+        "prediction": "[BATSMAN] has played a beautiful shot, hitting [BOWLER] for a boundary past the backward point boundary. A couple of interesting observations have been made by the former players.",
+        "truth": "[BATSMAN] scored a four off [BOWLER]'s delivery, played a shot to the cover point boundary."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_59",
+        "prediction": "[BATSMAN] plays a shot that produces four runs, the ball is too quick for [BOWLER], it's a boundary.",
+        "truth": "[BATSMAN] has fallen victim to a well-placed shot, with the ball being caught by [FIELDER] off [BOWLER]'s delivery at mid-off."
+    },
+    {
+        "vid_id": "CricketVideo9_video_segment_62",
+        "prediction": "The [BATSMAN] is batting on a defensive note, trying to rotate the strike.",
+        "truth": "A powerful slog sweep by [BATSMAN]."
+    },
+    {
+        "vid_id": "CricketVideo15_video_segment_190",
+        "prediction": "[BATSMAN] has reached his 90. [BOWLER] has delivered a good delivery which [BATSMAN] has driven through the leg side for a boundary. [BATSMAN] then takes a step down the pitch and is given the option of a legside shot, which he executes beautifully, sending the ball through the gap.",
+        "truth": "[BATSMAN] is bowled in by a Yorker from [BOWLER]. It's too quick for him. [BOWLER] has again troubled [BATSMAN] with pace. The [BATSMAN] attempts to defend, but the ball is chipped towards the [FIELDER], Hudson Prentice, who gets four runs."
+    },
+    {
+        "vid_id": "CricketVideo7_video_segment_90",
+        "prediction": "[BATSMAN] plays a shot, cutting the ball wide of [FIELDER] for four runs.",
+        "truth": "[BATSMAN] moves across the crease, [BOWLER] delivers the next ball, and [BATSMAN] executes a sweep shot, which reaches the boundary."
+    },
+    {
+        "vid_id": "CricketVideo11_video_segment_149",
+        "prediction": "[BATSMAN] moves forward to meet the delivery, which is thrown by [BOWLER] from [BATSMAN]'s right side. The ball is hit over the [BATSMAN]'s head, resulting in four runs.",
+        "truth": "[BATSMAN] plays a shot to the right, turning it away through square leg. The ball has the potential to go for a boundary. However, [FIELDER] cannot cover it and the shot is timed well by [BATSMAN]."
+    },
+    {
+        "vid_id": "CricketVideo4_video_segment_77",
+        "prediction": "[BATSMAN] plays a firm drive through the off side, scoring four runs.",
+        "truth": "[WICKET FELL]"
+    },
+    {
+        "vid_id": "CricketVideo13_video_segment_1",
+        "prediction": "[BATSMAN] plays a loose shot, edging the ball to the third slip fielder, but the fielder fails to take the catch.",
+        "truth": "Delivery is wide, and the batsman lets it go through to the [FIELDER]."
+    }
+]

@@ -37,7 +37,7 @@ class LLAMAModel(nn.Module):
                  llm_ckpt = "meta-llama/Meta-Llama-3-8B",
                  tokenizer_ckpt = "meta-llama/Meta-Llama-3-8B",
                  # Q-former part
-                 max_frame_pos = 256,
+                 max_frame_pos = 1024,
                  window = 30,
                  num_query_tokens = 32,
                  num_video_query_token = 32,
@@ -66,7 +66,7 @@ class LLAMAModel(nn.Module):
         # Initialize video Q-former
         self.video_Qformer,self.video_query_tokens = self.init_video_Qformer(num_query_token = num_video_query_token,
                                                                              vision_width=num_features,
-                                                                             num_hidden_layers =2)
+                                                                             num_hidden_layers =6)
         self.video_Qformer.cls = None
         self.video_Qformer.bert.embeddings.word_embeddings = None
         self.video_Qformer.bert.embeddings.position_embeddings = None
